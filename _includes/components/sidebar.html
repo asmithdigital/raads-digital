@@ -10,9 +10,6 @@
 {%- endcomment -%}
 
 <div class="side-bar">
-
-    {% include components/search_header.html %}
-
   
   <div class="site-header" role="banner">
     <a href="{{ '/' | relative_url }}" class="site-title lh-tight">{% include title.html %}</a>
@@ -20,6 +17,8 @@
       <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>
     </button>
   </div>
+
+  {% include components/search_header.html %}
 
   {% include_cached components/site_nav.html %}
 
