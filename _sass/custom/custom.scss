@@ -50,8 +50,23 @@ body{
   }
 }
 
-.search-active .search-overlay {
-  display: none !important;
+.search-active {
+  
+.search-input-wrap,
+.search-results {
+  @media (min-width: 50rem) {
+    width: auto; 
+  }
+
+  .search-overlay {
+    display: none !important;
+  }
+
+  .main {
+    @media (min-width: 50rem) {
+      position: static;
+    }
+  }
 }
 
 .main {
