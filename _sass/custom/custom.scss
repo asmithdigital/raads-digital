@@ -1,3 +1,13 @@
 .side-bar {
     background-color: #d9d9d9;
+    width: auto;
 }
+
+@media (min-width: 66.5rem) {
+    .side-bar,
+    .site-header,
+    .site-footer {
+        min-width: 20rem;    
+    }   
+}
+
