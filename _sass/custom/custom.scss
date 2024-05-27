@@ -6,6 +6,16 @@
         height: 3em !important;
     }
   }
+  
+  .search-active {
+    
+    .search-results,
+    .search-input-wrap {
+      @media (min-width: 50rem) {
+        width: 100%; 
+      }
+    }
+  }
 
   .site-header {
     height: auto;
@@ -21,4 +31,8 @@
   .site-nav, .site-header, .site-footer {
     width: 100%;
   }
+}
+
+.search-active .search-overlay {
+  display: none !important;
 }
