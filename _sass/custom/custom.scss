@@ -1,5 +1,11 @@
+body{
+  max-width: 97rem;
+  background: #d4d6d4;
+  margin: 0 auto;
+}
+
 .side-bar {
-  background-color: none;
+  background-color: #fff;
   
   @media (min-width: 50rem) {
     border-right: 1px solid #EBEBEC;
