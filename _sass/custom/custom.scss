@@ -167,3 +167,57 @@ body {
     }  
   }
 }
+
+.brand-wrap-container {
+  width: 100%; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: 
+  flex-start; 
+  display: inline-flex
+}
+
+.brand-inner {
+  justify-content: flex-start; 
+  align-items: 
+  flex-start; 
+  gap: 8px; 
+  display: inline-flex;
+}
+
+.brand-logo-icon {
+  width: 38px; 
+  color: #FFE600; 
+  font-size: 38px; 
+  font-family: Font Awesome 6 Pro; 
+  font-weight: 900; 
+  line-height: 56px; 
+  word-wrap: break-word;
+}
+ 
+.brand-logo-wrap {
+  padding-top: 6px; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: flex-start; 
+  display: inline-flex;
+}
+
+.brand-logo-title {
+  color: #333333; 
+  font-size: 32px; 
+  font-family: Helvetica Neue; 
+  font-weight: 700; 
+  line-height: 40px; 
+  word-wrap: break-word;
+}
+
+.brand-logo-subtitle {
+  color: #8D9298; 
+  font-size: 14px; 
+  font-family: Helvetica Neue; 
+  font-weight: 400; 
+  line-height: 20px; 
+  word-wrap: break-word;
+}
+
