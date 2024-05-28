@@ -33,6 +33,6 @@ just_the_docs:
     components:
       # Give the collection a name
       name: Components
-      nav_fold: false
+      nav_fold: true
 
 
