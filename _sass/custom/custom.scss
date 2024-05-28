@@ -138,4 +138,10 @@ body {
   @media (min-width: 66.5rem) {
     margin-left: 17rem;
   }
+
+  .main-content-wrap {
+    @media (min-width: 50rem) {
+      parring: 68px 102px;
+    }  
+  }
 }
