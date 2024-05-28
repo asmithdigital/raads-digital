@@ -11,7 +11,7 @@ collections:
   overview:
     output: true
     permalink: /:collection/:path
-    folder: _overview
+    folder: /
     sort_by: date
   components:
     output: true
