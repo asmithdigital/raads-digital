@@ -11,7 +11,7 @@ collections:
   home:
     output: true
     permalink: /
-    folder: /
+    folder: .
     sort_by: date
   overview:
     output: true
