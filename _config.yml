@@ -33,7 +33,7 @@ just_the_docs:
     # Reference the "tests" collection
     home:
       # Give the collection a name
-      name: 
+      name: Test
       nav_fold: False
     overview:
       # Give the collection a name
