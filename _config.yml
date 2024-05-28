@@ -25,4 +25,4 @@ just_the_docs:
     collection-one:
       # Give the collection a name
       name: Collection one
-      nav_fold: True
+      nav_fold: False
