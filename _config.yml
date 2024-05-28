@@ -29,10 +29,10 @@ just_the_docs:
     overview:
       # Give the collection a name
       name: Overview
-      nav_fold: true
+      nav_fold: false
     components:
       # Give the collection a name
       name: Components
-      nav_fold: true
+      nav_fold: false
 
 
