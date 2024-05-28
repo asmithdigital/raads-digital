@@ -8,11 +8,6 @@ logo: "/assets/images/logo.png"
 
 # Collections for website data
 collections:
-  home:
-    output: true
-    permalink: /
-    folder: .
-    sort_by: date
   overview:
     output: true
     permalink: /:collection/:path
@@ -31,10 +26,6 @@ just_the_docs:
   # Define which collections are used in just-the-docs
   collections:
     # Reference the "tests" collection
-    home:
-      # Give the collection a name
-      name: Test
-      nav_fold: False
     overview:
       # Give the collection a name
       name: Overview
