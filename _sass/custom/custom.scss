@@ -45,31 +45,33 @@ body {
 }
 
 @media (min-width: 66.5rem) {
-  .site-nav, .site-header, .site-footer {
-    width: 100%;
-  }
+    .site-nav, .site-header, .site-footer {
+        width: 100%;
+    }
 }
 
 .search-active {
   
-.search-input-wrap,
-.search-results {
-  @media (min-width: 50rem) {
-    width: auto; 
-  }
+    .search-input-wrap,
+    .search-results {
+      @media (min-width: 50rem) {
+        width: auto; 
+      }
 
-  .search-overlay {
-    display: none !important;
-  }
+      .search-overlay {
+        display: none !important;
+      }
 
-  .main {
-    @media (min-width: 50rem) {
-      position: static;
+      .main {
+        @media (min-width: 50rem) {
+          position: static;
+        }
+      }
     }
-  }
 }
 
 .main {
+
   @media (min-width: 50rem) {
     margin-left: 17rem;
     max-width: 80rem;
