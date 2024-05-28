@@ -4,6 +4,8 @@ theme: just-the-docs
 
 url: https://asmithdigital.github.io/raads-digital/
 
+logo: "/assets/images/logo.png"
+
 aux_links:
   Template Repository: https://github.com/asmithdigital/raads-digital/
 
