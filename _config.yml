@@ -14,6 +14,11 @@ collections:
     permalink: /:collection/:path
     folder: _collection-one
     sort_by: date
+  collection-two:
+    output: true
+    permalink: /:collection/:path
+    folder: _collection-one
+    sort_by: date
   staffers:
   schedules:
   announcements:
@@ -26,3 +31,9 @@ just_the_docs:
       # Give the collection a name
       name: Collection one
       nav_fold: False
+    collection-two:
+      # Give the collection a name
+      name: Collection two
+      nav_fold: False
+
+
