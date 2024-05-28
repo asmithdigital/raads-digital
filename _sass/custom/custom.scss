@@ -73,6 +73,12 @@ body {
     }
   }
 
+  .nav-list {
+    @media (min-width: 50rem) {
+      border-bottom: 1px solid #EBEBEC;
+    }
+  }
+  
   .nav-category {
     border-bottom: 0;
     padding: 12px 16px;
