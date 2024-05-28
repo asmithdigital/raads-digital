@@ -7,3 +7,19 @@ url: https://asmithdigital.github.io/raads-digital/
 aux_links:
   Template Repository: https://github.com/asmithdigital/raads-digital/
 
+_config.yml:
+  collections:
+    collection-one:
+      permalink: "/:collection/:path/"
+      output: true
+    collection-two:
+      permalink: "/:collection/:path/"
+      output: true
+  just_the_docs:
+    collections:
+      collection-one:
+        name: Collection One
+        nav_fold: true
+      collection-two:
+        name: Collection Two
+        nav_fold: false
