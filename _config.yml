@@ -7,19 +7,39 @@ url: https://asmithdigital.github.io/raads-digital/
 aux_links:
   Template Repository: https://github.com/asmithdigital/raads-digital/
 
-_config.yml:
+# _config.yml:
+#   collections:
+#     collection-one:
+#       permalink: "/:collection/:path/"
+#       output: true
+#     collection-two:
+#       permalink: "/:collection/:path/"
+#       output: true
+#   raads-digital:
+#     collections:
+#       collection-one:
+#         name: Collection One
+#         nav_fold: true
+#       collection-two:
+#         name: Collection Two
+#         nav_fold: false
+
+# Collections for website data
+collections:
+  modules:
+    output: true
+    permalink: /:collection/:path
+    folder: _collection-one
+    sort_by: date
+  staffers:
+  schedules:
+  announcements:
+
+just_the_docs:
+  # Define which collections are used in just-the-docs
   collections:
+    # Reference the "tests" collection
     collection-one:
-      permalink: "/:collection/:path/"
-      output: true
-    collection-two:
-      permalink: "/:collection/:path/"
-      output: true
-  raads-digital:
-    collections:
-      collection-one:
-        name: Collection One
-        nav_fold: true
-      collection-two:
-        name: Collection Two
-        nav_fold: false
+      # Give the collection a name
+      name: Collection one
+      nav_fold: True
