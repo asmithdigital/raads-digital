@@ -6,3 +6,6 @@ url: https://asmithdigital.github.io/raads-digital/
 
 aux_links:
   Template Repository: https://github.com/asmithdigital/raads-digital/
+
+collections:
+  - overview
