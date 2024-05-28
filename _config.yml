@@ -14,7 +14,7 @@ collections:
     collection-two:
       permalink: "/:collection/:path/"
       output: true
-  just_the_docs:
+  raads_digital:
     collections:
       collection-one:
         name: Collection One
