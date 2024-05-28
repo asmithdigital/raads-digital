@@ -4,6 +4,10 @@ body {
   margin: 0 auto;
 }
 
+:focus-visible {
+    outline: var(--P1-40, #FFF599) auto 1px;
+}
+
 .site-title:hover {
     background-image: none;
 }
@@ -81,8 +85,10 @@ body {
     color: #000000;
   }
 
-  .nav-list .nav-list-item .nav-list-expander {
+  .nav-list .nav-list-item .nav-list-expander,
+  .nav-list .nav-list-item .nav-list-expander:hover {
     cursor: pointer;
+    background-image: none;
   }
   
   .nav-list .nav-list-item .nav-list-expander,
