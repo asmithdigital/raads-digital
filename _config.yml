@@ -15,7 +15,7 @@ _config.yml:
     collection-two:
       permalink: "/:collection/:path/"
       output: true
-  just_the_docs:
+  raads-digital:
     collections:
       collection-one:
         name: Collection One
