@@ -11,15 +11,15 @@ aux_links:
 
 # Collections for website data
 collections:
-  collection-one:
+  overview:
     output: true
     permalink: /:collection/:path
-    folder: _collection-one
+    folder: _overview
     sort_by: date
-  collection-two:
+  components:
     output: true
     permalink: /:collection/:path
-    folder: _collection-one
+    folder: _components
     sort_by: date
   staffers:
   schedules:
@@ -29,13 +29,13 @@ just_the_docs:
   # Define which collections are used in just-the-docs
   collections:
     # Reference the "tests" collection
-    collection-one:
+    overview:
       # Give the collection a name
-      name: Collection one
+      name: Overview
       nav_fold: False
-    collection-two:
+    components:
       # Give the collection a name
-      name: Collection two
+      name: Components
       nav_fold: False
 
 
