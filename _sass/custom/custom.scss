@@ -71,8 +71,12 @@ body {
   }
 
   .nav-category,
+  .nav-list .nav-list-item.active .nav-list-link.active {
+    color: #000000;
+  }
+  
   .nav-list .nav-list-item .nav-list-link {
-    color: black;
+    color: #7b7676;
     
     @media (min-width: 50rem) {
       padding: 12px 16px;
