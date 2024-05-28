@@ -88,11 +88,11 @@ body {
 
   .nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
     background-image: none;
-    font-weight: 700;
   }
 
   .nav-list .nav-list-item .nav-list-link.active {
     background: var(--P1-40, #FFF599);
+    font-weight: 700;
   }
 
   .nav-list .nav-list-item .nav-list-link:hover {
