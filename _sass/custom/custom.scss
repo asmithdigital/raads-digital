@@ -105,6 +105,8 @@ h1:first-of-type {
   }
 
   .site-nav {
+    padding: 0 1rem;
+    
     @media (min-width: 50rem) {
       margin: 0 6px 0;
       padding: 0 18px 0 24px;
