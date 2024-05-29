@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Child
-parent: test
+parent: Test
 nav_order: 2
 ---
