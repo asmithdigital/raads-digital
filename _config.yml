@@ -32,10 +32,10 @@ just_the_docs:
       nav_fold: false
     layouts:
       name: Layouts
-      nav_fold: true
+      nav_fold: false
     components:
       name: Components
-      nav_fold: true
+      nav_fold: false
 
 callouts:
   highlight:
