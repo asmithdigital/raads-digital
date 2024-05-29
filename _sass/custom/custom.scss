@@ -86,7 +86,11 @@ body {
     margin-top: 0;
 
     + .nav-list {
-      border-bottom: 1px solid #EBEBEC;
+
+      & .nav-category-list" {
+        border-bottom: 1px solid #EBEBEC;
+        
+      }
     }
   }
 
