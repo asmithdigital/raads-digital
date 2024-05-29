@@ -293,8 +293,7 @@ p.important {
     content: "\f129" !important;
     display: inline-block !important;
     padding: 0 12px 0 !important;
-    vertical-align: middle !important;
-    font-weight: inherit !important;
+    vertical-align: middle;
     font-size: 24px !important;
   }
 }
