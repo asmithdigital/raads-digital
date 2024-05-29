@@ -6,9 +6,9 @@ $RAAborder: $RAAmidgrey;
 $RAAyellow: #fff599;
 
 body {
-  max-width: 97rem;
+  // max-width: 66rem;
   background: #ffffff;
-  margin: 0 auto;
+  // margin: 0 auto;
 }
 
 p {
@@ -54,7 +54,7 @@ h1:first-of-type {
     width: auto;
     max-width: 17rem;
     padding: 24px 0;
-    width: 320px;
+    min-width: 320px;
   }
 
   .logo-search {
@@ -205,11 +205,12 @@ h1:first-of-type {
 }
 
 .main {
-
-  @media (min-width: 50rem) {
-    margin-left: 17rem;
-    max-width: 80rem;
-  }
+  margin-left: 320px;
+  
+  // @media (min-width: 50rem) {
+  //   margin-left: 17rem;
+  //   max-width: 80rem;
+  // }
   
   @media (min-width: 66.5rem) {
     margin-left: 17rem;
@@ -223,7 +224,7 @@ h1:first-of-type {
 
     @media (min-width: 66.5rem){
       padding-left: 102px;
-      padding-rightt: 102px;
+      padding-right: 102px;
     }
   }
 }
