@@ -70,13 +70,13 @@ body {
     @media (min-width: 50rem) {
       margin: 0 6px 0;
       padding: 0 18px 0 24px;
-    }
 
-    // > .nav-list {
-    //   @media (min-width: 50rem) {
-    //     border-bottom: 1px solid #EBEBEC;
-    //   }
-    // }
+      > .nav-category {
+        ~ .nav-list {
+          border-bottom: 1px solid #EBEBEC;
+        }
+      }
+    }
   }
   
   .nav-category {
@@ -84,14 +84,6 @@ body {
     padding: 12px 16px;
     text-transform: capitalize;
     margin-top: 0;
-
-    + .nav-list {
-
-      & .nav-category-list" {
-        border-bottom: 1px solid #EBEBEC;
-        
-      }
-    }
   }
 
   .nav-category,
