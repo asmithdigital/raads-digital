@@ -1,3 +1,6 @@
+$RAAlightgrey: #f7f7f7;
+$RAAyellow: #fff599;
+
 body {
   max-width: 97rem;
   background: #ffffff;
@@ -5,7 +8,7 @@ body {
 }
 
 :focus-visible {
-    outline: var(--P1-40, #FFF599) auto 1px;
+    outline: $RAAyellow auto 1px;
 }
 
 .site-title:hover {
@@ -16,7 +19,7 @@ body {
   background-color: #fff;
   
   @media (min-width: 50rem) {
-    border-right: 1px solid #EBEBEC;
+    border-right: 1px solid $RAAlightgrey;
     width: auto;
     max-width: 17rem;
     padding: 24px 0;
@@ -40,7 +43,7 @@ body {
   .search-input {
     padding: 12px 12px 12px 38px;
     border-radius: 4px;
-    border: 1px solid #EBEBEC;
+    border: 1px solid $RAAlightgrey;
     background: #FFF;
   }
 
@@ -73,7 +76,7 @@ body {
 
       > .nav-category {
         ~ .nav-list {
-          border-bottom: 1px solid #EBEBEC;
+          border-bottom: 1px solid $RAAlightgrey;
         }
       }
     }
@@ -96,6 +99,7 @@ body {
     cursor: pointer;
     background-image: none;
     color: #7b7676;
+    top: 3px;
   }
   
   .nav-list.nav-category-list > .nav-list-item > .nav-list > .nav-list-item > .nav-list-link,
@@ -113,12 +117,12 @@ body {
   }
 
   .nav-list .nav-list-item .nav-list-link.active {
-    background: var(--P1-40, #FFF599);
+    background: $RAAyellow;
     font-weight: 700;
   }
 
   .nav-list .nav-list-item .nav-list-link:hover {
-    background: #EBEBEC;
+    background: $RAAlightgrey;
   }
   
   .aux-nav {
@@ -187,9 +191,9 @@ body {
 
 .brand-logo-icon {
   width: 38px; 
-  color: #FFE600; 
+  // color: $RAAyellow; 
   font-size: 38px; 
-  font-family: Font Awesome 6 Pro; 
+  // font-family: Font Awesome 6 Pro; 
   font-weight: 900; 
   line-height: 56px; 
   word-wrap: break-word;
