@@ -1,6 +1,7 @@
 $RAAlightgrey: #f7f7f7;
 $RAAmidgrey: #ebebec;
 $RAAdarkgrey: #4d4d4d;
+$RAAblack: #333333;
 $RAAborder: $RAAmidgrey;
 $RAAyellow: #fff599;
 
@@ -52,6 +53,7 @@ body {
 
   .search-label {
     padding-left: 12px;
+    color: $RAAblack;
   }
 
   .search-icon {
@@ -96,7 +98,7 @@ body {
 
   .nav-category,
   .nav-list .nav-list-item.active .nav-list-link.active {
-    color: #000000;
+    color: $RAAblack;
   }
 
   .nav-list .nav-list-item .nav-list-expander,
@@ -124,7 +126,7 @@ body {
   .nav-list .nav-list-item .nav-list-link.active {
     background: $RAAyellow;
     font-weight: 700;
-    color: #000000;
+    color: $RAAblack;
   }
 
   .nav-list .nav-list-item .nav-list-link:hover {
@@ -214,7 +216,7 @@ body {
 }
 
 .brand-logo-title {
-  color: #333333; 
+  color: $RAAblack; 
   font-size: 32px; 
   font-family: Helvetica Neue; 
   font-weight: 700; 
