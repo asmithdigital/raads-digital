@@ -276,12 +276,14 @@ h1:first-of-type {
   word-wrap: break-word;
 }
 
-.note {
+.note.info {
   &::before {
-    content: '<i class="fa-solid fa-circle-info"></i>'
-    width: 5px;
-    height: 5px;
+    font-family: "Font Awesome 6 Free";
+    content: "\f095";
     display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
   }
 }
 
