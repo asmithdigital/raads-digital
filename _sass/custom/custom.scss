@@ -78,6 +78,8 @@ body {
       > .nav-category {
         ~ .nav-list {
           border-bottom: 1px solid $RAAlightgrey;
+          padding-bottom: 6px;
+          margin-bottom: 6px;
         }
       }
     }
@@ -119,7 +121,8 @@ body {
 
   .nav-list .nav-list-item .nav-list-link.active {
     background: $RAAyellow;
-    font-weight: normal;
+    font-weight: 700;
+    color: #000000;
   }
 
   .nav-list .nav-list-item .nav-list-link:hover {
