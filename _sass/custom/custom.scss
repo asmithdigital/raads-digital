@@ -26,6 +26,10 @@ h1:first-of-type {
     outline: $RAAyellow auto 1px;
 }
 
+.icon {
+  color: $RAAblack;
+}
+
 .site-title:hover {
     background-image: none;
 }
@@ -42,9 +46,13 @@ h1:first-of-type {
   }
 
   .logo-search {
-    padding: 0 24px;
-    margin-bottom: 24px;
     width: 100%;
+    padding: 1rem;
+
+    @media (min-width: 50rem) {
+      padding: 0 24px;
+      margin-bottom: 24px;
+    }
   }
   
   .search {    
@@ -80,6 +88,8 @@ h1:first-of-type {
   }
 
   .site-title {
+    padding: 0 0 12px;
+    
     @media (min-width: 50rem) {
       padding: 0;
     }
