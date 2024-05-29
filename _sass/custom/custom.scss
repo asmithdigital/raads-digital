@@ -276,3 +276,13 @@ h1:first-of-type {
   word-wrap: break-word;
 }
 
+.note {
+  &::before {
+    content: '<i class="fa-solid fa-circle-info"></i>'
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+  }
+}
+
+
