@@ -2,5 +2,5 @@
 layout: default
 title: Child
 parent: Test
-nav_order: 2
+nav_order: 1
 ---
