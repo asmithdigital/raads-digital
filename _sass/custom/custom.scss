@@ -276,7 +276,7 @@ h1:first-of-type {
   word-wrap: break-word;
 }
 
-.note.info {
+.note {
   &::before {
     font-family: "Font Awesome 6 Free";
     content: "\f095";
