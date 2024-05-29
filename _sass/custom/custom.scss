@@ -11,6 +11,10 @@ body {
   margin: 0 auto;
 }
 
+h1 {
+  font-weight: 500;
+}
+
 :focus-visible {
     outline: $RAAyellow auto 1px;
 }
