@@ -11,6 +11,11 @@ collections:
     permalink: /:collection/:path
     folder: _overview
     sort_by: date
+  layouts:
+    output: true
+    permalink: /:collection/:path
+    folder: _layouts
+    sort_by: date
   components:
     output: true
     permalink: /:collection/:path
@@ -21,15 +26,14 @@ collections:
   announcements:
 
 just_the_docs:
-  # Define which collections are used in just-the-docs
   collections:
-    # Reference the "tests" collection
     overview:
-      # Give the collection a name
       name: Overview
       nav_fold: false
+    layouts:
+      name: Layouts
+      nav_fold: true
     components:
-      # Give the collection a name
       name: Components
       nav_fold: true
 
