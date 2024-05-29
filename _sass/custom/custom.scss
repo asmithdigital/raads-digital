@@ -51,10 +51,8 @@ h1:first-of-type {
   
   @media (min-width: 50rem) {
     border-right: 1px solid $RAAborder;
-    width: auto;
-    max-width: 17rem;
+    width: 17rem;
     padding: 24px 0;
-    min-width: 320px;
   }
 
   .logo-search {
@@ -205,12 +203,11 @@ h1:first-of-type {
 }
 
 .main {
-  margin-left: 320px;
   
-  // @media (min-width: 50rem) {
-  //   margin-left: 17rem;
-  //   max-width: 80rem;
-  // }
+  @media (min-width: 50rem) {
+    margin-left: 17rem;
+    max-width: 80rem;
+  }
   
   @media (min-width: 66.5rem) {
     margin-left: 17rem;
