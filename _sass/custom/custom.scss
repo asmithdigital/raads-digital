@@ -1,5 +1,7 @@
 $RAAlightgrey: #f7f7f7;
+$RAAmidgrey: #ebebec;
 $RAAdarkgrey: #4d4d4d;
+$RAAborder: $RAAmidgrey;
 $RAAyellow: #fff599;
 
 body {
@@ -20,7 +22,7 @@ body {
   background-color: #fff;
   
   @media (min-width: 50rem) {
-    border-right: 1px solid $RAAlightgrey;
+    border-right: 1px solid $RAAborder;
     width: auto;
     max-width: 17rem;
     padding: 24px 0;
@@ -44,7 +46,7 @@ body {
   .search-input {
     padding: 12px 12px 12px 38px;
     border-radius: 4px;
-    border: 1px solid $RAAlightgrey;
+    border: 1px solid $RAAborder;
     background: #FFF;
   }
 
@@ -77,7 +79,7 @@ body {
 
       > .nav-category {
         ~ .nav-list {
-          border-bottom: 1px solid $RAAlightgrey;
+          border-bottom: 1px solid $RAAborder;
           padding-bottom: 6px;
           margin-bottom: 6px;
         }
