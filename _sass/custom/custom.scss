@@ -276,14 +276,15 @@ h1:first-of-type {
   word-wrap: break-word;
 }
 
-.note {
+.important {
   &::before {
-    font-family: "Font Awesome 6 Free";
-    content: "\f129";
-    display: inline-block;
-    padding-right: 3px;
-    vertical-align: middle;
-    font-weight: 900;
+    font-family: "Font Awesome 6 Free" !important;
+    content: "\f129" !important;
+    display: inline-block !important;
+    padding-right: 12px !important;
+    vertical-align: middle !important;
+    font-weight: 900 !important;
+    padding: 0 !important;
   }
 }
 
