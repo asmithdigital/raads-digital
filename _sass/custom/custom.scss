@@ -157,7 +157,8 @@ h1:first-of-type {
     background-image: none;
   }
 
-  .nav-list .nav-list-item .nav-list-link.active {
+  .nav-list .nav-list-item .nav-list-link.active,
+  .nav-list .nav-list-item .nav-list-link.active:hover {
     background: $RAAyellow;
     font-weight: 700;
     color: $RAAblack;
