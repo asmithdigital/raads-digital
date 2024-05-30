@@ -9,4 +9,4 @@ figma: https://www.figma.com/design/P2gZJjVaAqHJwB1tGbwtjw/RAADS?node-id=5178-82
 
 | Type        | Resource          | Status |
 |:-------------|:------------------|:------|
-| Design           | [RAADS (Figma)](page.figma){:target="_blank"}  | TBD  |
+| Design           | [RAADS (Figma)]({{page.figma}}){:target="_blank"}  | TBD  |
