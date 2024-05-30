@@ -6,21 +6,24 @@ url: https://asmithdigital.github.io/raads-digital/
 
 # Collections for website data
 collections:
-  overview:
+  docs:
+    permalink: "/:collection/:path/"
     output: true
-    permalink: /:collection/:path
-    folder: _docs/_overview
-    sort_by: date
-  grids:
-    output: true
-    permalink: /:collection/:path
-    folder: _docs/_grids
-    sort_by: date
-  components:
-    output: true
-    permalink: /:collection/:path
-    folder: _docs/_components
-    sort_by: date
+  # overview:
+  #   output: true
+  #   permalink: /:collection/:path
+  #   folder: _docs/_overview
+  #   sort_by: date
+  # grids:
+  #   output: true
+  #   permalink: /:collection/:path
+  #   folder: _docs/_grids
+  #   sort_by: date
+  # components:
+  #   output: true
+  #   permalink: /:collection/:path
+  #   folder: _docs/_components
+  #   sort_by: date
   staffers:
   schedules:
   announcements:
