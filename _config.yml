@@ -11,10 +11,10 @@ collections:
     permalink: /:collection/:path
     folder: _overview
     sort_by: date
-  layouts:
+  grids:
     output: true
     permalink: /:collection/:path
-    folder: _layouts
+    folder: _grids
     sort_by: date
   components:
     output: true
@@ -30,7 +30,7 @@ just_the_docs:
     overview:
       name: Overview
       nav_fold: false
-    layouts:
+    grids:
       name: Layouts
       nav_fold: false
     components:
