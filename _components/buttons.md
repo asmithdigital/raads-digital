@@ -1,6 +1,6 @@
 ---
 title: Buttons
-layout: home
+layout: components
 nav_order: 1
 ---
 
