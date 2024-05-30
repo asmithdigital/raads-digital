@@ -1,5 +1,5 @@
 ---
 title: Text Fields
-layout: home
+layout: components
 nav_order: 1
 ---
