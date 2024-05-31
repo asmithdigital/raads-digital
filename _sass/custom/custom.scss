@@ -45,7 +45,7 @@ h1:first-of-type {
 }
 
 .page-title {
-  background: $RAAlightgrey;
+  background: lighten($RAAlightgrey, 50%);
 }
 
 .side-bar {
