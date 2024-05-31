@@ -209,8 +209,7 @@ h1:first-of-type {
     margin-left: 17rem;
   }
 
-  .main-content-wrap {
-
+  .container {
     @media (min-width: 50rem) {
       padding: 68px;
     }  
@@ -219,6 +218,18 @@ h1:first-of-type {
       padding-left: 102px;
       padding-right: 102px;
     }
+  }
+  
+  .main-content-wrap {
+
+    // @media (min-width: 50rem) {
+    //   padding: 68px;
+    // }  
+
+    // @media (min-width: 66.5rem){
+    //   padding-left: 102px;
+    //   padding-right: 102px;
+    // }
   }
 }
 
