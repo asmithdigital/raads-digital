@@ -9,7 +9,7 @@ figma: https://www.figma.com/design/P2gZJjVaAqHJwB1tGbwtjw/RAADS?node-id=5178-82
 - TOC
 {:toc}
 
-![](https://daily.raa.com.au/wp-content/uploads/2024/05/STL_0090_Surfer-small-1.png)
+![](/assets/images/date-1.png)
 
 ## Heading 2
 
