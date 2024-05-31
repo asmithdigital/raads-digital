@@ -13,7 +13,5 @@ figma: https://www.figma.com/design/P2gZJjVaAqHJwB1tGbwtjw/RAADS?node-id=5178-82
 
 ## Heading 2
 {: .d-inline-block }
-New (v0.4.0)
-{: .label .label-green }
 
 ### Heading 3
