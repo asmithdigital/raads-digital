@@ -222,9 +222,10 @@ h1:first-of-type {
   
   .main-content-wrap {
 
-    // @media (min-width: 50rem) {
-    //   padding: 68px;
-    // }  
+    @media (min-width: 50rem) {
+      padding: 0;
+      // padding: 68px;
+    }  
 
     // @media (min-width: 66.5rem){
     //   padding-left: 102px;
