@@ -201,7 +201,8 @@ h1:first-of-type {
   
   @media (min-width: 50rem) {
     margin-left: 17rem;
-    max-width: 66rem;
+    // max-width: 66rem;
+    max-width: 100%;
   }
   
   @media (min-width: 66.5rem) {
