@@ -9,8 +9,6 @@ figma: https://www.figma.com/design/P2gZJjVaAqHJwB1tGbwtjw/RAADS?node-id=5178-82
 - TOC
 {:toc}
 
-![](/assets/images/date-1.png)
-
 ## Heading 2
 
 ### Heading 3
