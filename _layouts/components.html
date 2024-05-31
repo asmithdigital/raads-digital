@@ -2,7 +2,8 @@
 layout: default
 ---
 
-{% include_relative toc.md %}
+{% capture my_include %}{% include_relative _layouts/toc.md %}{% endcapture %}
+{{ my_include | markdownify }}
 
 <div class="page-title">
   <div class="container">
