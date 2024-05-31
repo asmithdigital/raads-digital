@@ -322,11 +322,12 @@ p.important {
   padding-left: 0;
   font-size: 12px;
 
-   @media (min-width: 50rem) {
-      width: 320px;
-      position: sticky;
-      right: 0;
-   }
+  @media (min-width: 50rem) {
+    width: 320px;
+    position: sticky;
+    right: 0;
+    top: 20px;
+  }
   
   &::before {
     content: "Contents";
