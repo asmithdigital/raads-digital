@@ -320,15 +320,20 @@ p.important {
 
 #markdown-toc {
   padding-left: 0;
+  font-size: 12px;
+
+   @media (min-width: 50rem) {
+      width: 320px;
+      position: fixed;
+      right: 0;
+   }
   
   &::before {
     content: "Contents";
   }
 
   li::before {
-    position: absolute;
     margin-left: 0;
-    // color: #959396;
     content: none;
   }
 }
