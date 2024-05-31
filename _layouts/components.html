@@ -1,8 +1,9 @@
 ---
 layout: default
+permalink: /toc/
 ---
 
-{% capture my_include %}{% include_relative /_includes/toc.md %}{% endcapture %}
+{% capture my_include %}{% include_relative ./_includes/toc.md %}{% endcapture %}
 {{ my_include | markdownify }}
 
 <div class="page-title">
