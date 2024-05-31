@@ -10,6 +10,5 @@ figma: https://www.figma.com/design/P2gZJjVaAqHJwB1tGbwtjw/RAADS?node-id=5178-82
 {:toc}
 
 ## Heading 2
-{: .d-inline-block }
 
 ### Heading 3
