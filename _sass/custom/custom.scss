@@ -317,3 +317,18 @@ p.important {
 .reference-table {
   margin-top:68px;
 }
+
+#markdown-toc {
+  padding-left: 0;
+  
+  &::before {
+    content: "Contents";
+  }
+
+  li::before {
+    position: absolute;
+    margin-left: 0;
+    // color: #959396;
+    content: none;
+  }
+}
