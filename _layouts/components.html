@@ -9,9 +9,11 @@ layout: default
   </div>
 </div>
 
+{% if page.promo-image %}
 <div class="promo-image">
-  <img src="{{site.url}}/assets/images/{{page.promo-image}}" style="max-width: 250px; height: auto; margin: 50px auto;">
+  <img src="{{site.url}}/assets/images/{{page.promo-image}}">
 </div>
+{% endif %}
 
 <div class="container">
   
