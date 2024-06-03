@@ -220,7 +220,8 @@ h1:first-of-type {
     margin-left: 17rem;
   }
 
-  .container {
+  .container,
+  .promo-image {
     @media (min-width: 50rem) {
       padding: 34px 68px;
     }  
