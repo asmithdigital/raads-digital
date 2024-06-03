@@ -46,6 +46,13 @@ h1:first-of-type {
 
 .page-title {
   background: $RAAlightgrey;
+
+  .title-wrapper,
+  .component-version {
+    display: inline-block;
+  }
+
+  .title-wrapper {margin-right: 30px;}
 }
 
 .side-bar {
