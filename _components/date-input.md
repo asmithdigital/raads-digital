@@ -7,3 +7,13 @@ promo-image: date-1.png
 ---
 
 The date picker is great!
+
+## Specificaitons
+
+It has specs. Tney are good.
+
+
+## Accessibility
+
+Don't make it hard for screen readers
+
