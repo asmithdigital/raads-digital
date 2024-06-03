@@ -15,7 +15,7 @@ It has specs. They are good.
 
 ## Accessibility
 
-Don't make it hard for screen readers
+Don't make it hard for screen readers. `<inline code snippet>`
 
 ```html
 <img src="wrongname.gif" alt="A narrow city street with flowers in Chania">
