@@ -2,6 +2,7 @@
 layout: home
 title: Get started
 nav_order: 1
+parent: Hi
 ---
 
 # Introduction
