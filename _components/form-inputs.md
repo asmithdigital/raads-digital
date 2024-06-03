@@ -1,4 +1,4 @@
 ---
-title: Text Fields
+title: Form Inputs
 layout: components
 ---
