@@ -27,11 +27,11 @@ It has specs. They are good.
 1. **Error message:** Single error message for date picker form component.
 3. **Button error state:** Date picker calendar button styles inherit from [buttons]({{site.baseurl}}/components/buttons)
 
+## Behaviour
+
+1. The error must not be shown when the user is tabbing between the day, month and year inputs.
+1. Only when the user moves focus away from all three inputs can the validation be triggered. 
 
 ## Accessibility
 
-Don't make it hard for screen readers. `<inline code snippet>`
-
-```html
-<img src="wrongname.gif" alt="A narrow city street with flowers in Chania">
-```
+1. The user must always be in control. DO not hijack the cursor.
