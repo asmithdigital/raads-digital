@@ -1,5 +1,5 @@
 ---
-title: Components
+title: Overview
 layout: components
 nav_order: 1
 ---
