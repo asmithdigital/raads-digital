@@ -33,4 +33,5 @@ The date picker is great!
 
 ## Accessibility
 
-1. Do not hijack the cursor and automatically move the cursor to the next input. The user must always be in control. 
+1. Do not hijack the cursor by automatically moving the cursor to the next input. The user must always be in control.
+1. All form input validation for date picker inherit from [form inputs]({{site.baseurl}}/components/form-inputs). 
