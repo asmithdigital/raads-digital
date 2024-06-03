@@ -6,11 +6,11 @@ url: https://asmithdigital.github.io/raads-digital/
 
 # Collections for website data
 collections:
-  overview:
-    output: true
-    permalink: /:collection/:path
-    folder: _overview
-    sort_by: date
+  #overview:
+    #output: true
+    #permalink: /:collection/:path
+    #folder: _overview
+    #sort_by: date
   foundations:
     output: true
     permalink: /:collection/:path
@@ -27,9 +27,9 @@ collections:
 
 just_the_docs:
   collections:
-    overview:
-      name: Overview
-      nav_fold: false
+    #overview:
+      #name: Overview
+      #nav_fold: false
     foundations:
       name: Foundations
       nav_fold: false
