@@ -10,7 +10,7 @@ The date picker is great!
 
 ## Specificaitons
 
-It has specs. Tney are good.
+It has specs. They are good.
 
 
 ## Accessibility
