@@ -1,7 +1,7 @@
 ---
 title: About
 layout: home
-exclude_nav: true
+nav_exclude: true
 ---
 
 Testing 
