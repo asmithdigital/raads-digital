@@ -8,7 +8,7 @@ promo-image: date-1.png
 
 The date picker is great!
 
-## Specificaitons
+## Specifications
 
 It has specs. They are good.
 
