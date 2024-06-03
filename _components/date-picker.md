@@ -17,11 +17,7 @@ The date picker is great!
 1. **Text fields:** Text fields and labels inherit from [form inputs]({{site.baseurl}}/components/form-inputs).
 1. **Calendar dropdown button:** Will display a calendar picker dropdown.
 
-## Specifications
-
-It has specs. They are good.
-
-### Validation
+## Validation
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FpC6ZhE3ixUPT7MbTPPaVc0%2FRAADS-visual-examples%3Fnode-id%3D44-1178%26t%3DylD63g8qa222Va07-1%26scaling%3Dmin-zoom%26page-id%3D0%253A1&hide-ui=1" allowfullscreen></iframe>
 
@@ -29,12 +25,12 @@ It has specs. They are good.
 1. **Error message:** Single error message for date picker form component.
 3. **Button error state:** Date picker calendar button styles inherit from [buttons]({{site.baseurl}}/components/buttons)
 
-### Behaviour
+## Behaviour
 
 1. The error must not be shown when the user is tabbing between the day, month and year inputs.
 1. Only trigger validation when the user moves focus away from all three inputs (see [FocusEvent.relatedTarget](https://developer.mozilla.org/en-US/docs/Web/API/FocusEvent/relatedTarget)).
 . 
 
-### Accessibility
+## Accessibility
 
 1. Do not hijack the cursor and automatically move the cursor to the next input. The user must always be in control. 
