@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Introduction
+title: Get started
 nav_order: 1
 ---
 
