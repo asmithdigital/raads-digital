@@ -7,6 +7,7 @@ figma: https://www.figma.com/design/P2gZJjVaAqHJwB1tGbwtjw/RAADS?node-id=5178-82
 
 The date picker is great!
 
+
 ## Structure
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FpC6ZhE3ixUPT7MbTPPaVc0%2FRAADS-visual-examples%3Fnode-id%3D1-65%26t%3DFprFJtU0BJbww0zq-1%26scaling%3Dmin-zoom%26page-id%3D0%253A1&hide-ui=1" allowfullscreen></iframe>
@@ -17,10 +18,11 @@ The date picker is great!
 1. **Calendar dropdown:** Dropdown showing the month.
 1. **Calendar button selected:** Clears the text field content.
 
-## Specifications
+## Validation
 
 It has specs. They are good.
 
+Date picker text field validation styles inherit from [textfields]({{site.baseurl}}/textfields).
 
 ## Accessibility
 
