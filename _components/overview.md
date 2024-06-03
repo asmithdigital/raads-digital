@@ -5,6 +5,9 @@ nav_order: 1
 ---
 
 {% for component in site.components %}
-  <h2>{{ component.title }} - {{  }}</h2>
-  <p>{{ component.content | markdownify }}</p>
+  <h2>
+    <a href="{{ component.url }}">
+      {{ component.title }}
+    </a>
+  </h2>
 {% endfor %}
