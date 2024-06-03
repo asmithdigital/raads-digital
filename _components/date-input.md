@@ -17,7 +17,6 @@ It has specs. They are good.
 
 Don't make it hard for screen readers
 
-<div class="code-example" markdown="1">
 ```js
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
@@ -25,14 +24,4 @@ var fun = function lang(l) {
   return true;
 }
 ```
-</div>
-{% highlight markdown %}
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-{% endhighlight %}
 
