@@ -22,7 +22,7 @@ The date picker is great!
 
 It has specs. They are good.
 
-Date picker text field validation styles inherit from [textfields]({{site.baseurl}}/textfields).
+Date picker text field validation styles inherit from [textfields]({{site.baseurl}}/components/textfields).
 
 ## Accessibility
 
