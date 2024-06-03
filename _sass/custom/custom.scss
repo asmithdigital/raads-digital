@@ -224,6 +224,7 @@ h1:first-of-type {
   .promo-image {
     @media (min-width: 50rem) {
       padding: 34px 68px;
+      max-width: 70rem;
     }  
 
     @media (min-width: 66.5rem){
