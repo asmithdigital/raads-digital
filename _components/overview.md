@@ -6,7 +6,7 @@ nav_order: 1
 
 {% for component in site.components %}
   <h2>
-    <a href="{{ component.url }}">
+    <a href="{{site.url}}/{{ component.url }}">
       {{ component.title }}
     </a>
   </h2>
