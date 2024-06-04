@@ -4,6 +4,8 @@ layout: components
 nav_order: 1
 ---
 
+{{site.components}}
+
 Words
 <div>
  <div class="category-tiles">
