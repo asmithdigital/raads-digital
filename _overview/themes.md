@@ -9,7 +9,7 @@ The RAA Apirary design system does not specify every detail for every product, i
 
 ## Default theme
 
-The default theme is the base for all themes and includes all base [layouts]({{site.url}}foundations/layouts), [components]({{site.url}}components), and [foundations]({{site.url}}foundations) such as, colours and typography. The default theme is used for specific applications such as claims, renewals and QTB.
+The default theme is the base for all themes and includes all base [layouts]({{site.url}}foundations/layouts/overview), [components]({{site.url}}components/overview), and [foundations]({{site.url}}foundations/overview). The default theme is used for specific applications such as claims, renewals and QTB.
 
 ## Portal theme
 
