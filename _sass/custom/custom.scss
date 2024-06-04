@@ -45,9 +45,11 @@ h1:first-of-type {
 }
 
 .page-title {
+  border-bottom: 1px solid $RAAborder;
   margin-bottom: 24px;
   
   @media (min-width: 50rem) {
+    border-bottom: 0;
     background: $RAAlightgrey;
   }
 
