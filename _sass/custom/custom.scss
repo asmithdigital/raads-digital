@@ -381,12 +381,12 @@ iframe {
 .category-tiles {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  border: 1px solid $RAAborder;
-  padding: 24px;
+  gap: 24px;
   
   a {
     display: block;
     height: 100%;
+    padding: 24px;
     transition: box-shadow 200ms;
     text-decoration: none;
     color: var(--ds-text-subtlest, #7A869A);
@@ -395,5 +395,7 @@ iframe {
     &:hover {
       box-shadow: var(--ds-shadow-overlay, 0px 8px 12px #091e423f, 0px 0px 1px #091e424f);
     }
+
+    h3 {margin-top: 0;}
   }
 }
