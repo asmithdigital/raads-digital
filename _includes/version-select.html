@@ -1,14 +1,12 @@
-<div class="component-version">{{page.version}}</div>
-
 {% if page.older_versions  %}
  <div class="component-version">
- <select name="cars" id="cars">
-   <option value="{{page.version}}" selected>{{page.version}}</option>
-    {% for version in page.older_versions %}
-      <option value="{{ version }}">{{ version }}</option>
-    {% endfor %}
-   </select>
- </div>
- {% else %}
+  <select name="cars" id="cars">
+    <option value="{{page.version}}" selected>{{page.version}}</option>
+     {% for version in page.older_versions %}
+       <option value="{{ version }}">{{ version }}</option>
+     {% endfor %}
+    </select>
+  </div>
+{% else %}
 <div class="component-version">{{page.version}}</div>
 {% endif %}
