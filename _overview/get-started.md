@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: components
 title: Get started
 nav_order: 1
 ---
