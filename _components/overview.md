@@ -9,6 +9,7 @@ Words
 <div>
  <div class="category-tiles">
   {% for component in site.components %}
+  
   {% unless component.title == "overview" %}
   <div>
     <a href="{{site.baseurl}}{{ component.url }}">
@@ -18,6 +19,7 @@ Words
     </a>
   </div>
   {% endunless %}
+  
   {% endfor %}  
  </div>
 </div>
