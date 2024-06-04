@@ -382,7 +382,7 @@ iframe {
   display: grid;
   gap: 24px;
 
-   @media (min-width: 20em) and (max-width: 50em) {
+   @media (min-width: 30em) and (max-width: 50em) {
      grid-template-columns: repeat(2, 1fr);
    }
 
