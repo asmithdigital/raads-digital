@@ -1,8 +1,8 @@
-{% for page in page.subpages %}
+{% for subpage in page.subpages %}
   <h2>
-    <a href="{{site.baseurl}}{{ page.url }}">
-      {{ page.title }}
+    <a href="{{site.baseurl}}{{ subpage.url }}">
+      {{ subpage.title }}
     </a>
   </h2>
-  <p>{{ page.intro | markdownify }}</p>
+  <p>{{ subpage.intro | markdownify }}</p>
 {% endfor %}
