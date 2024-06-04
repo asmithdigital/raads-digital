@@ -2,9 +2,8 @@
 layout: components
 title: Themes
 nav_order: 2
+intro: Themes are used by web application products maintained by RAA Digital.
 ---
-
-Themes are used by web application products maintained by RAA Digital.
 
 ## Default theme
 
