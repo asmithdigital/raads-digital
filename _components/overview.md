@@ -6,7 +6,7 @@ nav_order: 1
 
 Words
 <div>
- <div style="display: grid; grid-template-columns: repeat(3, 1fr)">
+ <div class="category-tiles">
   {% for component in site.components %}
   <div>
     <a href="{{site.baseurl}}{{ component.url }}">
