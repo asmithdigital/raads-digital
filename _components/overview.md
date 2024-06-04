@@ -5,7 +5,8 @@ nav_order: 1
 ---
 
 Words
-<ul>
+
+<ul class="category-tiles">
 {% for component in site.components %}
   <li>
     <a href="{{site.baseurl}}{{ component.url }}">
