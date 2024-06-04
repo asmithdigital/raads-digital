@@ -380,13 +380,20 @@ iframe {
 
 .category-tiles {
   display: grid;
-  list-style-type: none;
-  gap: 24px;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid $RAAborder;
+  padding: 24px;
+  
+  a {
+    display: block;
+    height: 100%;
+    transition: box-shadow 200ms;
+    text-decoration: none;
+    color: var(--ds-text-subtlest, #7A869A);
+    box-shadow: var(--ds-shadow-raised, 0px 1px 1px #091e423f, 0px 0px 1px #091e4221);
 
-  li {
-    display: flex;
-    list-style-type: none;
-    border: 1px solid;
+    &:hover {
+      box-shadow: var(--ds-shadow-overlay, 0px 8px 12px #091e423f, 0px 0px 1px #091e424f);
+    }
   }
 }
