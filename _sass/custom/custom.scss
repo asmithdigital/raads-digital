@@ -50,6 +50,7 @@ h1:first-of-type {
   
   @media (min-width: 50rem) {
     border-bottom: 0;
+    margin-bottom: 0;
     background: $RAAlightgrey;
   }
 
@@ -59,6 +60,12 @@ h1:first-of-type {
   }
 
   .title-wrapper {margin-right: 30px;}
+
+  h1 {
+    @media (max-width: 49rem) {
+      margin-bottom: 0 !important;
+    }
+  }
 }
 
 .side-bar {
