@@ -10,7 +10,6 @@ Words
  <div class="category-tiles">
   {% for component in site.components %}
   
-  {% unless component.title == "overview" %}
   <div>
     <a href="{{site.baseurl}}{{ component.url }}">
      <div class="category-tiles-thumb"></div>
@@ -18,7 +17,10 @@ Words
       <p>{{ component.intro | markdownify }}</p>
     </a>
   </div>
-  {% endunless %}
+
+  {% if component.title == "overview" %}
+  console.log({{component}})
+  {% endif %}
   
   {% endfor %}  
  </div>
