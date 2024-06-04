@@ -14,9 +14,9 @@ layout: default
   </div>
 </div>
 
-{% if page.promo-image %}
+{% if page.promo-image && page.promo-image-url %}
 <div class="promo-image">
-  <img src="{{site.url}}/assets/images/{{page.promo-image}}">
+  <img src="{{site.url}}/assets/images/{{page.promo-image-url}}">
 </div>
 {% endif %}
 
