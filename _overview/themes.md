@@ -13,5 +13,5 @@ The default theme is the base for all themes and includes all base [layouts]({{s
 
 The Portal theme is used by 'My Account'. It inherits all styles and components from the default theme. My Account also has specific and unique layouts and components documented in this design system.
 
-{: .important mt-4 }
+{: .important mt-6 }
 This design system does not specify every detail for every product. For specifications relevant to the product, take a look at the specific product design specification documentation.
