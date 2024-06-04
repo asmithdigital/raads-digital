@@ -377,3 +377,12 @@ p.important {
 iframe {
   margin-bottom: 24px;
 }
+
+.category-tiles {
+  display: grid;
+  gap: 24px;
+
+  li {
+    display: flex;
+  }
+}
