@@ -4,14 +4,14 @@ layout: components
 nav_order: 1
 ---
 
-## Hi
-
-
+Words
+<ul>
 {% for component in site.components %}
-  <h2>
+  <li>
     <a href="{{site.baseurl}}{{ component.url }}">
-      {{ component.title }}
+      <h3>{{ component.title }}</h3>
+      <p>{{ component.intro | markdownify }}</p>
     </a>
-  </h2>
-  <p>{{ component.intro | markdownify }}</p>
+  </li>
 {% endfor %}
+</ul>
