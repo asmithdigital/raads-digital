@@ -380,8 +380,15 @@ iframe {
 
 .category-tiles {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
+
+   @media (min-width: 20em) and (max-width: 50em) {
+     grid-template-columns: repeat(2, 1fr);
+   }
+
+   @media (min-width: 55em) and (max-width: 86em) {
+     grid-template-columns: repeat(2, 1fr);
+   }
 
    @media (min-width: 87rem) {
      grid-template-columns: repeat(3, 1fr);
