@@ -383,6 +383,10 @@ iframe {
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 
+   @media (min-width: 87rem) {
+     grid-template-columns: repeat(3, 1fr);
+  }
+
   &-thumb {
     border-radius: 4px;
     background: #f4f5f7;
