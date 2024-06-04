@@ -14,8 +14,8 @@ promo-image: date-1.png
 1. **Fieldset legend:** Legend for fieldset group `<legend>` See [form inputs]({{site.baseurl}}/components/form-inputs)
 1. **Form label and input:** Label for each form input `<label for>`See [form inputs]({{site.baseurl}}/components/form-inputs)
 1. **Calendar button:** See [buttons]({{site.baseurl}}/components/buttons).
-1. **Horizontal spacing:** `2` See [spacing]({{site.baseurl}}/foundations/spacing)
-1. **Vertical spacing:** `3` See [spacing]({{site.baseurl}}/foundations/spacing)
+1. **Horizontal spacing:** `2 XS` See [spacing]({{site.baseurl}}/foundations/spacing)
+1. **Vertical spacing:** `3 SM` See [spacing]({{site.baseurl}}/foundations/spacing)
 1. **Calendar picker dropdown:** TBD.
 
 
