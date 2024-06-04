@@ -381,6 +381,7 @@ iframe {
 .category-tiles {
   display: grid;
   gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 
   li {
     display: flex;
