@@ -21,11 +21,12 @@ promo-image: date-1.png
 
 ## Validation
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="220" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FpC6ZhE3ixUPT7MbTPPaVc0%2FRAADS-visual-examples%3Fnode-id%3D44-1178%26t%3DylD63g8qa222Va07-1%26scaling%3Dmin-zoom%26page-id%3D0%253A1&hide-ui=1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="429" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FpC6ZhE3ixUPT7MbTPPaVc0%2FRAADS-visual-examples%3Fnode-id%3D44-1178%26t%3DylD63g8qa222Va07-1%26scaling%3Dmin-zoom%26page-id%3D0%253A1&hide-ui=1" allowfullscreen></iframe>
 
 1. **Group label:** See [form inputs]({{site.baseurl}}/components/form-inputs).
 1. **Field label and input:** See [form inputs]({{site.baseurl}}/components/form-inputs).
-3. **Error message:** See [form inputs]({{site.baseurl}}/components/form-inputs) and [behaviour](#behaviour).
+1. **Error message:** One error message positioned below form inputs. See [form inputs]({{site.baseurl}}/components/form-inputs) and [behaviour](#behaviour).
+1. **Stacked positioning:** Stacked layout error message sits below form inputs.
 
 ## Behaviour
 
