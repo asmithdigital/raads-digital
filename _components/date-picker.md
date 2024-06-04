@@ -11,9 +11,9 @@ promo-image: date-1.png
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="494" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FpC6ZhE3ixUPT7MbTPPaVc0%2FRAADS-visual-examples%3Fnode-id%3D1-65%26t%3DFprFJtU0BJbww0zq-1%26scaling%3Dmin-zoom%26page-id%3D0%253A1&hide-ui=1" allowfullscreen></iframe>
 
-1. **Group Label:** See [form inputs]({{site.baseurl}}/components/form-inputs)
-1. **Input label:** See [form inputs]({{site.baseurl}}/components/form-inputs)
-1. **Spacing:** See [spacing]({{site.baseurl}}/foundations/spacing)
+1. **Fieldset legend:** Legend for fieldset group `<legend>` See [form inputs]({{site.baseurl}}/components/form-inputs)
+1. **Input label:** Label for each form input `<label for>`See [form inputs]({{site.baseurl}}/components/form-inputs)
+1. **Spacing:** Horizontal and vertical gap `2` ;See [spacing]({{site.baseurl}}/foundations/spacing)
 1. **Calendar button default:** See [buttons]({{site.baseurl}}/components/buttons).
 1. **Calendar button selected:** See [buttons]({{site.baseurl}}/components/buttons).
 1. **Calendar picker dropdown:** TBD.
