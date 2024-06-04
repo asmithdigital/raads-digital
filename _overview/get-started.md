@@ -4,7 +4,7 @@ title: Get started
 nav_order: 1
 ---
 
-. TOC
+.TOC
 - {:toc}
 
 # Introduction
