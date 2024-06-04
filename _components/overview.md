@@ -1,5 +1,5 @@
 ---
-title: Components
+title: Overview
 layout: components
 subpages: true
 nav_order: 4
