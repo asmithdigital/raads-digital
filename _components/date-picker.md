@@ -7,6 +7,8 @@ older_versions:
     - 0.0.4
 figma: https://www.figma.com/design/P2gZJjVaAqHJwB1tGbwtjw/RAADS?node-id=5178-8295&t=DaQuC2pMFYEZZcOO-1
 intro: The date picker is great!
+promo-image: true
+promo-image-url: date-1.png
 ---
 
 ## Structure
