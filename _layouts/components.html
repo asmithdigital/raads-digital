@@ -14,11 +14,11 @@ layout: default
   </div>
 </div>
 
-{% unless page.hide-promo-image %}
+{% if page.show-promo-image %}
 <div class="promo-image">
   <img src="{{site.url}}/assets/images/{{page.promo-image}}">
 </div>
-{% endunless %}
+{% endif %}
 
 <div class="container">
   
