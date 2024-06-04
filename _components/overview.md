@@ -13,7 +13,7 @@ Words
      {% continue %}
    {% else %}
    <div>
-     <a href="{{site.baseurl}}{{ component.url }}">
+     <a href="{{site.baseurl}}{{ component.url }}" class="{{component.title}}">
        {% if component.promo-image %}
          <div class="category-tiles-thumb"><img src="{{site.url}}assets/images/{{component.promo-image}}"></div>
        {% else %}
