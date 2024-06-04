@@ -380,12 +380,13 @@ iframe {
 
 .category-tiles {
   display: grid;
+  list-style-type: none;
   gap: 24px;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 
   li {
     display: flex;
-    list-style-type; none;
+    list-style-type: none;
     border: 1px solid;
   }
 }
