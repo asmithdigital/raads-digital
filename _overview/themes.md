@@ -7,7 +7,7 @@ intro: Themes are used by web application products maintained by RAA Digital.
 
 ## Default theme
 
-The default theme is the base for all themes and includes all base [layouts]({{site.url}}/layouts), components, spacing, colours, typography etc. The default theme is used for specific applications such as claims, renewals and QTB.
+The default theme is the base for all themes and includes all base [layouts]({{site.url}}foundations/layouts), [components]({{site.url}}components), and [foundations]({{site.url}}foundations) such as, colours and typography. The default theme is used for specific applications such as claims, renewals and QTB.
 
 ## Portal theme
 
