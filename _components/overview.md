@@ -1,12 +1,12 @@
 ---
 title: Overview
 layout: components
-subpages: components
+subpages: true
 nav_order: 4
 ---
 
 ## Hi
 
 {%if page.subpages %}
-  {% include category-list.html %}
+  {% include category-list.html category="components"%}
 {% endif %}
