@@ -1,8 +1,8 @@
-{% for component in site.components %}
+{% for page in page.subpages %}
   <h2>
-    <a href="{{ component.url }}">
-      {{ component.title }}
+    <a href="{{ page.url }}">
+      {{ page.title }}
     </a>
   </h2>
-  <p>{{ component.intro | markdownify }}</p>
+  <p>{{ page.intro | markdownify }}</p>
 {% endfor %}
