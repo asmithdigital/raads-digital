@@ -19,7 +19,7 @@ Words
   </div>
 
   {% if component.title == "overview" %}
-  console.log({{component}})
+  <script>console.log({{component}});</script>
   {% endif %}
   
   {% endfor %}  
