@@ -4,7 +4,7 @@ layout: components
 nav_order: 1
 ---
 
-{{site.components}}
+<script>console.log({{this|json}});</script>
 
 Words
 <div>
