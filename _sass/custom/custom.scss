@@ -61,6 +61,8 @@ h1:first-of-type {
 
   .title-wrapper {margin-right: 30px;}
 
+  .component-version {position: absolute;}
+
   h1 {
     @media (max-width: 49rem) {
       margin-bottom: 0 !important;
@@ -235,6 +237,8 @@ h1:first-of-type {
 
   .container,
   .promo-image {
+    position: relative;
+    
     @media (min-width: 50rem) {
       padding: 34px 68px;
       max-width: 70rem;
