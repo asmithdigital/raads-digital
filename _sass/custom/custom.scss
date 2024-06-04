@@ -45,7 +45,11 @@ h1:first-of-type {
 }
 
 .page-title {
-  background: $RAAlightgrey;
+  margin-bottom: 24px;
+  
+  @media (min-width: 50rem) {
+    background: $RAAlightgrey;
+  }
 
   .title-wrapper,
   .component-version {
