@@ -27,7 +27,7 @@ promo-image: date-1.png
 
 1. **Group label:** See [form inputs]({{site.baseurl}}/components/form-inputs).
 1. **Field label and input:** See [form inputs]({{site.baseurl}}/components/form-inputs).
-3. **Error message:** See [behaviour](#behaviour).
+3. **Error message:** See [form inputs]({{site.baseurl}}/components/form-inputs) and [behaviour](#behaviour).
 
 ## Behaviour
 
