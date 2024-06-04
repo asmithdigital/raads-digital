@@ -4,9 +4,8 @@ layout: components
 nav_order: 1
 ---
 
-<script>console.log({{site.components|json}});</script>
-
 Words
+
 <div>
  <div class="category-tiles">
   {% for component in site.components %}
