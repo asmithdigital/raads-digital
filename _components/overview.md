@@ -9,7 +9,7 @@ Words
 <div>
  <div class="category-tiles">
   {% for component in site.components %}
-  {% unless site.components == "overview" %}
+  {% unless component.title == "overview" %}
   <div>
     <a href="{{site.baseurl}}{{ component.url }}">
      <div class="category-tiles-thumb"></div>
