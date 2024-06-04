@@ -5,7 +5,8 @@ nav_order: 1
 ---
 
 Words
- <div style="display: flex; flex-wrap: wrap;">
+<div>
+ <div style="display: grid; grid-template-columns: repeat(3, 1fr)">
   {% for component in site.components %}
   <div>
     <a href="{{site.baseurl}}{{ component.url }}">
@@ -14,4 +15,5 @@ Words
     </a>
   </div>
   {% endfor %}  
+ </div>
 </div>
