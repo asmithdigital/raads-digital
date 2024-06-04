@@ -15,7 +15,7 @@ Words
    <div>
      <a href="{{site.baseurl}}{{ component.url }}">
        {% if component.promo-image %}
-         <div class="category-tiles-thumb"><img src="{{site.url}}/assets/images/{{page.promo-image}}"></div>
+         <div class="category-tiles-thumb"><img src="{{site.url}}assets/images/{{page.promo-image}}"></div>
        {% else %}
         <div class="category-tiles-thumb"></div>
       {% endif %}
