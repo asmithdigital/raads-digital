@@ -4,9 +4,9 @@
 {% if page.older_versions  %}
  <div class="component-version">
   <select name="cars" id="cars" onchange="location = this.value;">
-    <option value="raads-digital{{page.url}}-{{page.version}}" selected>{{page.version}}</option>
+    <option value="/raads-digital{{page.url}}-{{page.version}}" selected>{{page.version}}</option>
      {% for version in page.older_versions %}
-       <option value="raads-digital{{page.url}}-{{ version }}">{{ version }}</option>
+       <option value="/raads-digital{{page.url}}-{{ version }}">{{ version }}</option>
      {% endfor %}
     </select>
   </div>
