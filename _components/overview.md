@@ -10,9 +10,7 @@ Words
 <div>
  <div class="category-tiles">
   {% for component in site.components %}
-   {% if component.title == "overview" %}
-     {% continue %}
-   {% else %}
+   {% if component.hide_category_list != true %}
    <div>
      <a href="{{site.baseurl}}{{ component.url }}" class="{{component.title}}">
        {% if component.promo-image %}
