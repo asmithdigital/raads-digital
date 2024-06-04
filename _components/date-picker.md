@@ -26,8 +26,8 @@ intro: The date picker is great!
 ## Behaviour
 
 1. The error must not be shown when the user is tabbing between the day, month and year inputs.
-1. Only trigger validation when the user moves focus away from all three inputs (see [FocusEvent.relatedTarget](https://developer.mozilla.org/en-US/docs/Web/API/FocusEvent/relatedTarget)).
-. 
+1. Only trigger validation when the user moves focus away from all three inputs. Consider using `FocusEvent.relatedTarget`./ (see [MDN web docs FocusEvent.relatedTarget](https://developer.mozilla.org/en-US/docs/Web/API/FocusEvent/relatedTarget)).
+
 
 ## Accessibility
 
