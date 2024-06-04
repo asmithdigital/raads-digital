@@ -1,7 +1,7 @@
 ---
 title: Overview
 layout: components
-subpages: true
+subpages: components
 nav_order: 4
 ---
 
