@@ -5,6 +5,7 @@ layout: home
 nav_exclude: true
 search_exclude: true
 promo_link: /get-started/introduction
+promo_link_title: Get started
 ---
 
 {% include home-promo.html %}
