@@ -5,6 +5,8 @@ nav_order: 1
 intro: How to get started with Apiary
 ---
 
+First review the foundations.
+
 {% assign subpage = site.foundations | where: 'title', 'Overview' %}
 {% for item in subpage %}
 <div>
