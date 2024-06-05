@@ -8,7 +8,7 @@ search_exclude: true
 
 {% include home-promo.html %}
 
-[Start here]({{site.baseurl}}get-started/introduction){: .btn }
+[Start here]({{site.baseurl}}/get-started/introduction)
 
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
