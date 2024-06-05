@@ -7,7 +7,7 @@ search_exclude: true
 ---
 
 
-{% include category-list.html items="get-started" show-link=true %}
+{% include category-list.html items="get-started" %}
 
 
 <ul class="list-style-none">
