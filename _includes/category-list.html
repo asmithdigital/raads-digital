@@ -9,7 +9,11 @@
        {% else %}
         <div class="category-tiles-thumb"></div>
       {% endif %}
+      {% if item.title-alternative %}
+      <h3>{{ item.title-alternative }}</h3>
+      {% else %}
        <h3>{{ item.title }}</h3>
+      {% endif %}
        <p>{{ item.intro | markdownify }}</p>
      </a>
    </div>
