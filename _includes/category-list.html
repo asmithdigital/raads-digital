@@ -15,6 +15,13 @@
        <h3>{{ item.title }}</h3>
       {% endif %}
        <p>{{ item.intro | markdownify }}</p>
+       {% if include.show-link %}
+        {% if item.title-alternative %}
+         <a href="">{{ item.title-alternative }}</a> 
+        {% else %}
+         <a href="">{{ item.title }}</a> 
+        {% endif %}
+       {% endif %}
      </a>
    </div>
   {% endif %}
