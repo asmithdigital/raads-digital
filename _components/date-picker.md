@@ -43,4 +43,5 @@ promo-image: date-1.png
 ## Accessibility
 
 1. Do not hijack the cursor by automatically moving the cursor to the next input. The user must always be in control.
+2. Validation message must specify which field is in error state (eg 'Please enter a valid day and year'), and must not rely on colour alone to indicate error state.
 1. All form input validation for date picker inherit from [form inputs]({{site.baseurl}}/components/form-inputs). 
