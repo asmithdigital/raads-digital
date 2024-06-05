@@ -1,16 +1,16 @@
 <div>
  <div class="category-tiles">
-  {% for component in site.components %}
-   {% if component.hide_category_list != true %}
+  {% for item in include.items %}
+   {% if item.hide_category_list != true %}
    <div>
-     <a href="{{site.baseurl}}{{ component.url }}" class="{{component.title}}">
-       {% if component.promo-image %}
-         <div class="category-tiles-thumb"><img src="{{site.url}}assets/images/{{component.promo-image}}"></div>
+     <a href="{{site.baseurl}}{{ item.url }}" class="{{item.title}}">
+       {% if item.promo-image %}
+         <div class="category-tiles-thumb"><img src="{{site.url}}assets/images/{{item.promo-image}}"></div>
        {% else %}
         <div class="category-tiles-thumb"></div>
       {% endif %}
-       <h3>{{ component.title }}</h3>
-       <p>{{ component.intro | markdownify }}</p>
+       <h3>{{ item.title }}</h3>
+       <p>{{ item.intro | markdownify }}</p>
      </a>
    </div>
   {% endif %}
