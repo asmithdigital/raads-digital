@@ -7,7 +7,7 @@ search_exclude: true
 ---
 
 
-{% include home-promo.html %}
+{% include category-list.html items="get-started" %}
 
 
 <ul class="list-style-none">
