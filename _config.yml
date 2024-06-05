@@ -22,6 +22,11 @@ collections:
     permalink: /:collection/:path
     folder: _components
     sort_by: date
+  forms:
+    output: true
+    permalink: /:collection/:path
+    folder: _forms
+    sort_by: date
   staffers:
   schedules:
   announcements:
@@ -36,6 +41,9 @@ just_the_docs:
       nav_fold: true
     components:
       name: Components
+      nav_fold: true
+    forms:
+      name: Forms
       nav_fold: true
 
 callouts:
