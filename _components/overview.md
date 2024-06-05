@@ -1,6 +1,6 @@
 ---
 title: Overview
-category_title: Forms
+category_title: Components
 layout: components
 nav_order: 1
 hide_category_list: true
