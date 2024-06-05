@@ -1,7 +1,7 @@
 ---
 title: Apiary
 intro: Apiary is the RAADS digital design system.
-layout: minimal
+layout: home
 nav_exclude: true
 search_exclude: true
 ---
