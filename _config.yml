@@ -33,7 +33,7 @@ just_the_docs:
       nav_fold: false
     foundations:
       name: Foundations
-      nav_fold: false
+      nav_fold: true
     components:
       name: Components
       nav_fold: true
