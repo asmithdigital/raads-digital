@@ -150,14 +150,10 @@ h2:first-of-type {
       padding: 0 18px 0 24px;
       box-shadow: none;
 
-      .nav-category-list {
+      > .nav-list {
         border-bottom: 1px solid $RAAborder;
         padding-bottom: 6px;
         margin-bottom: 6px;
-
-        &:first-of-type {
-          border-top: 1px solid $RAAborder;
-        }
       }
     }
   }
