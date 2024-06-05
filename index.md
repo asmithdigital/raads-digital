@@ -1,6 +1,6 @@
 ---
 title: Apiary
-description: Apiary is RAADS digital deskgn system.
+intro: Apiary is RAADS digital design system.
 layout: home
 nav_exclude: true
 search_exclude: true
