@@ -7,7 +7,7 @@ search_exclude: true
 ---
 
 
-[Get started]({{site.baseurl}}foundations/introduction)
+[Get started]({{site.baseurl}}/foundations/introduction)
 
 
 
