@@ -5,6 +5,14 @@ nav_exclude: true
 search_exclude: true
 ---
 
+## Apiary 
+
+Apiary is RAADS digital deskgn system.
+
+[Get started]({{site.baseurl}}foundations/introduction)
+
+
+
 {% include home-promo.html %}
 
 <ul class="list-style-none">
