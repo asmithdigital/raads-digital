@@ -5,9 +5,9 @@ nav_order: 1
 intro: How to get started with Apiary
 ---
 
-test
+test1
 
-{% assign subpage = [site.foundations, site.components, site.forms] | where: 'title', 'Overview' %}
+{% assign subpage = site.collections | where: 'title', 'Overview' %}
 {% for item in subpage %}
 <div>
   <div class="category-tiles">
