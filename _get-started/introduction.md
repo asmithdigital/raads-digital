@@ -1,6 +1,7 @@
 ---
 layout: components
 title: Introduction
+title-alternative: Get started
 nav_order: 1
 ---
 
