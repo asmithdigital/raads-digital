@@ -7,7 +7,7 @@ hide_category_list: true
 
 Words could go here 
 
-{% include category-list.html items=site.components %}
+{% include category-list.html items='site.components' %}
 
 
 <div>
