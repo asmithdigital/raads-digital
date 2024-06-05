@@ -6,7 +6,7 @@ nav_exclude: true
 search_exclude: true
 ---
 
-
+[Get started]({{site.baseurl}}/get-started/introduction)
 
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
