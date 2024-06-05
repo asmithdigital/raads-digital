@@ -7,5 +7,5 @@ intro: How to get started with Apiary
 
 {% assign subpage = site.foundations | where: 'title', 'Overview' %}
 {% for item in subpage %}
-   {{ item.title }}
+   {{ item.category_title }}
 {% endfor %}
