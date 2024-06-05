@@ -5,12 +5,10 @@ nav_order: 1
 intro: How to get started with Apiary
 ---
 
-{% assign subpage = site.foundations | where: 'title', 'Overview' %}
+{% assign subpage = [site.foundations, site.components, site.forms] | where: 'title', 'Overview' %}
 {% for item in subpage %}
 <div>
   <div class="category-tiles">
-   
- 
     <div>
       <a href="{{site.baseurl}}{{ item.url }}" class="{{item.title}}">
         {% if item.promo-image %}
@@ -22,8 +20,6 @@ intro: How to get started with Apiary
         <p>{{ item.intro | markdownify }}</p>
       </a>
     </div>
-
-
   </div>
 </div>
 {% endfor %}
