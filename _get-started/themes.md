@@ -2,9 +2,9 @@
 layout: components
 title: Themes
 nav_order: 2
+intro: The theme defines layouts and other design attributes for a product.
 ---
 
-The RAA Apirary design system does not specify every detail for every product, it is instead a catalogue for all products maintained by the digital teams. For specific product design specifications, contact the speciofic product design team.
 
 ## Default theme
 
