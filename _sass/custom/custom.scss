@@ -154,6 +154,10 @@ h2:first-of-type {
         border-bottom: 1px solid $RAAborder;
         padding-bottom: 6px;
         margin-bottom: 6px;
+
+        &:first-of-type {
+          border-top: 1px solid $RAAborder;
+        }
       }
     }
   }
