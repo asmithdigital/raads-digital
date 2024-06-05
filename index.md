@@ -10,8 +10,6 @@ promo_link_title: Get started
 
 {% include home-promo.html %}
 
-[Get started]({{site.baseurl}}/get-started/introduction)
-
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
   <li class="d-inline-block mr-1">
