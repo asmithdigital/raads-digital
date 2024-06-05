@@ -6,8 +6,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-{% capture collection %}{{ site.get-started }}{% endcapture %}
-{% include category-list.html items=collection %}
 
 {% include home-promo.html %}
 
