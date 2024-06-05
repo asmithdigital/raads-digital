@@ -6,12 +6,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-
-[Get started]({{site.baseurl}}/get-started/introduction)
-
-
+{% include category-list.html items={{ site.components }} %}
 
 {% include home-promo.html %}
+
 
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
