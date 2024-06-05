@@ -5,7 +5,10 @@ nav_order: 1
 hide_category_list: true
 ---
 
-Words
+Words could go here 
+
+{% include category-list.html items={{ site.components }} %}
+
 
 <div>
  <div class="category-tiles">
