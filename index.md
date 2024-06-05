@@ -5,7 +5,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-
 {% include home-promo.html %}
 
 [Start here]({{site.baseurl}}/get-started/introduction)
