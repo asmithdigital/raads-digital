@@ -1,7 +1,4 @@
 <div>
- {% if include.single-item %}
-  hello {{site.collections}}
- {% else %}
   <div class="category-tiles">
    {% for item in site.[include.items] %}
     {% if item.hide_category_list != true %}
@@ -19,5 +16,4 @@
    {% endif %}  
   {% endfor %} 
   </div>
- {% endif %}
 </div>
