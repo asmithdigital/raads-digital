@@ -1,5 +1,5 @@
 ---
-nav_title: Overview
+title: Overview
 category_title: Forms
 layout: components
 intro: Forms are great
