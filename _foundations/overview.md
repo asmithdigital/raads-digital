@@ -1,6 +1,6 @@
 ---
 title: Overview
-layout: foundations
+layout: components
 nav_order: 1
 hide_category_list: true
 ---
