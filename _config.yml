@@ -7,11 +7,6 @@ url: https://asmithdigital.github.io/raads-digital/
 
 # Collections for website data
 collections:
-  get-started:
-    output: true
-    permalink: /:collection/:path
-    folder: _get-started
-    sort_by: date
   foundations:
     output: true
     permalink: /:collection/:path
@@ -33,9 +28,6 @@ collections:
 
 just_the_docs:
   collections:
-    get-started:
-      name: Get started
-      nav_fold: false
     foundations:
       name: Foundations
       nav_fold: true
