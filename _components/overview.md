@@ -7,8 +7,7 @@ hide_category_list: true
 
 Words could go here 
 
-{% capture collection %}{{ site.components }}{% endcapture %}
-{% include category-list.html items=collection %}
+{% include category-list.html items="collection" %}
 
 
 <div>
