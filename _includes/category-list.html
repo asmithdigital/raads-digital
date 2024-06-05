@@ -1,6 +1,6 @@
 <div>
- <div class="category-tiles"> it works 2
-  {% for item in site[include.collection] %}
+ <div class="category-tiles"> it works 3
+  {% for item in include.collection %}
    {% if item.hide_category_list != true %}
    <div>
      <a href="{{site.baseurl}}{{ item.url }}" class="{{item.title}}">
