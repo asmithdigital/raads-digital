@@ -44,8 +44,14 @@ h2:first-of-type {
 .site-title:hover {
     background-image: none;
 }
+.home-promo {
+  @media (min-width: 50rem) {
+    padding: 68px 0;
+  }
+}
 
-.page-title {
+.page-title,
+.home-promo {
   @media (max-width: 49rem) {
     border-bottom: 1px solid $RAAborder;
     padding-bottom: 1rem;
