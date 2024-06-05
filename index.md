@@ -1,12 +1,12 @@
 ---
 title: Apiary
-intro: Apiary is RAADS digital design system.It contains the building blocks for all digital applications maintained by the RAA digital team.
-layout: home
+intro: Apiary is the RAADS digital design system.
+layout: minimal
 nav_exclude: true
 search_exclude: true
 ---
 
-{% include category-list.html items="get-started" %}
+
 
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
