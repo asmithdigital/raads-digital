@@ -1,4 +1,8 @@
 <div>
+ {% if single-item %}
+ hello {{include.items}}
+ {% else %}
+ {% endif %}
  <div class="category-tiles">
   {% for item in site.[include.items] %}
    {% if item.hide_category_list != true %}
