@@ -6,26 +6,7 @@ nav_exclude: true
 search_exclude: true
 ---
 
-## Get started
-
-This section introduced the design system...
-
 {% include category-list.html items="get-started" %}
-
-
-## Foundations
-
-This section is about the basics that you set up first...
-
-{% include category-list.html items="foundations" %}
-
-
-## Components
-
-This section includes all the components...
-
-{% include category-list.html items="components" %}
-
 
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
