@@ -1,13 +1,11 @@
 ---
-title: Home
+title: Apiary
+description: Apiary is RAADS digital deskgn system.
 layout: home
 nav_exclude: true
 search_exclude: true
 ---
 
-## Apiary 
-
-Apiary is RAADS digital deskgn system.
 
 [Get started]({{site.baseurl}}foundations/introduction)
 
