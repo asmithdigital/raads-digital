@@ -1,5 +1,7 @@
 {% assign category = site.[include.items] | where: 'title', 'Overview' %}
 
+{{category}}
+
 <div>
   <div class="category-tiles">
    {% for item in category %}
