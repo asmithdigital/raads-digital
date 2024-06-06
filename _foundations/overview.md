@@ -6,6 +6,6 @@ nav_order: 1
 hide_category_list: true
 ---
 
-Words could go here 
+Words could go here 2
 
 {% include category-list.html items="foundations" %}
