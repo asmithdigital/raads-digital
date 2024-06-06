@@ -1,7 +1,11 @@
-{% assign subpage = site.[include.items] | where: 'title', 'Overview' %}
+{% if include.overview-only %}
+  {% assign category = site.[include.items] | where: 'title', 'Overview' %}
+{% else %}
+  {% assign category = site.[include.items] %}
+{% endif %}  
 <div>
   <div class="category-tiles">
-   {% for item in site.[include.items] %}
+   {% for item in category %}
     {% if item.hide_category_list != true %}
     <div>
       <a href="{{site.baseurl}}{{ item.url }}" class="{{item.title}}">
