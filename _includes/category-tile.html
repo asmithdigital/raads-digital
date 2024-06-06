@@ -5,7 +5,7 @@
     {% else %}
      <div class="category-tiles-thumb"></div>
     {% endif %}
-    <h3>{{ include.this_tile.category_title }}</h3>
+    <h3>{{ include.this_tile.category_title | markdownify }}</h3>
     <p>{{ include.this_tile.intro | markdownify }}</p>
   </a>
 </div>
