@@ -1,0 +1,15 @@
+<div>
+  <div class="category-tiles">
+    <div>
+      <a href="{{site.baseurl}}{{ include.url }}" class="{{include.title}}">
+        {% if include.promo-image %}
+          <div class="category-tiles-thumb"><img src="{{site.url}}assets/images/{{include.promo-image}}"></div>
+        {% else %}
+         <div class="category-tiles-thumb"></div>
+        {% endif %}
+        <h3>{{ include.category_title }}</h3>
+        <p>{{ include.intro | markdownify }}</p>
+      </a>
+    </div>
+  </div>
+</div>
