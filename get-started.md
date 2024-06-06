@@ -8,4 +8,6 @@ intro: How to get started with Apiary
 
 does it work?
 
-{% include category-list.html items="foundations" overview-only=true %}
+{% assign category = site.[include.items] | where: 'title', 'Overview' %}
+
+{% include category-list.html items=category %}
