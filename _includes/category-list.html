@@ -1,3 +1,4 @@
+{% assign subpage = site.[include.items] | where: 'title', 'Overview' %}
 <div>
   <div class="category-tiles">
    {% for item in site.[include.items] %}
