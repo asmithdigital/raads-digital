@@ -6,7 +6,7 @@ intro: How to get started with Apiary
 ---
 
 
-does it work?
+does it work yet
 
 {% assign category = site.[include.items] | where: 'title', 'Overview' %}
 
