@@ -1,4 +1,4 @@
-{% assign subpage = site.foundations | where: 'title', 'Overview' %}
+{% assign subpage = site.[include.items] | where: 'title', 'Overview' %}
 {% for item in subpage %}
 <div>
   <div class="category-tiles">
