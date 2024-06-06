@@ -4,7 +4,7 @@ intro: Apiary provides resources, components, and design guidelines to help prod
 layout: home
 nav_exclude: true
 search_exclude: true
-promo_link: /get-started/introduction
+promo_link: /get-started.html
 promo_link_title: Get started
 ---
 
