@@ -1,5 +1,5 @@
 ---
-title: Foundations
+title: Test
 layout: home
 has_children: true
 ---
