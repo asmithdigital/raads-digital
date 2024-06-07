@@ -1,6 +1,6 @@
+<div>
 {% for item in site.pages %}
   {% if item.parent == include.parent %}
-    <div>
       <div class="category-tiles">  
         
           {% if item.hide_category_list != true %}
@@ -18,6 +18,6 @@
           {% endif %}  
       
       </div>
-    </div>
   {% endif %}
 {% endfor %}
+</div>
