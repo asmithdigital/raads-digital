@@ -1,3 +1,9 @@
+---
+title: Themes
+layout: components
+nav_order: 2
+---
+
 ## Default
 
 The default theme is the base for all items in the Apiary design system. The default theme is used by insurance web applications such as QTB, renewals and claims.
