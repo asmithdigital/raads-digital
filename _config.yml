@@ -27,13 +27,13 @@ just_the_docs:
   collections:
     foundations:
       name: Foundations
-      nav_fold: true
+      nav_fold: false
     components:
       name: Components
-      nav_fold: true
+      nav_fold: false
     forms:
       name: Forms
-      nav_fold: true
+      nav_fold: false
 
 callouts:
   highlight:
