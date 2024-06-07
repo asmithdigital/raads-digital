@@ -1,7 +1,7 @@
 ---
 title: About
 layout: home
-parent: Get started
+nav_exclude: true
 ---
 
 Testing 
