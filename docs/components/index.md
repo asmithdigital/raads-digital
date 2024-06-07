@@ -9,5 +9,5 @@ has_children: true
 
 Words could go here 
 
-{% include category-list.html items="components" %}
+{% include category-list.html parent="Components" %}
 
