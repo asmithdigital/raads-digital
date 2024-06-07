@@ -4,6 +4,6 @@ layout: home
 has_children: true
 ---
 
-{% for item in site.pages %}
-{{ item.title }}
+{% for item in pages %}
+  {{ item.title }}
 {{% endfor %}}
