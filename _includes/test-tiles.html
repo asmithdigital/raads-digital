@@ -1,3 +1,9 @@
+{% for item in site.pages %}
+  {% if item.parent == [include.items] %}
+    These shoes are awesome!
+    {% include test-tiles.html items="Test" %}
+  {% endif %}
+{% endfor %}
 <div>
   <div class="category-tiles">  
     {% for item in include.items %}
