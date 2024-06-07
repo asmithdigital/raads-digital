@@ -1,8 +1,7 @@
 <div>
-{% for item in site.pages %}
-  {% if item.parent == include.parent %}
-      <div class="category-tiles">  
-        
+  <div class="category-tiles">  
+    {% for item in site.pages %}
+      {% if item.parent == include.parent %}
           {% if item.hide_category_list != true %}
             <div>
               <a href="{{site.baseurl}}{{ item.url }}" class="{{item.title}}">
@@ -16,8 +15,7 @@
               </a>
             </div>  
           {% endif %}  
-      
-      </div>
-  {% endif %}
-{% endfor %}
+    {% endif %}
+  {% endfor %}
+  </div>
 </div>
