@@ -16,9 +16,14 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
-  margin-bottom: 24px !important;
-  margin-top: 48px !important;
   text-transform: capitalize;
+	margin-bottom: 18px !important;
+	margin-top: 24px !important;
+	
+	@media (min-width: 50rem) {
+		margin-bottom: 24px !important;
+  	margin-top: 48px !important;
+	}
 }
 
  @media (min-width: 50rem) {
