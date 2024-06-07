@@ -9,34 +9,34 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 # Collections for website data
-collections:
-  foundations:
-    output: true
-    permalink: /:collection/:path
-    folder: _foundations
-  components:
-    output: true
-    permalink: /:collection/:path
-    folder: _components
-  forms:
-    output: true
-    permalink: /:collection/:path
-    folder: _forms
-  staffers:
-  schedules:
-  announcements:
+# collections:
+#   foundations:
+#     output: true
+#     permalink: /:collection/:path
+#     folder: _foundations
+#   components:
+#     output: true
+#     permalink: /:collection/:path
+#     folder: _components
+#   forms:
+#     output: true
+#     permalink: /:collection/:path
+#     folder: _forms
+#   staffers:
+#   schedules:
+#   announcements:
 
-just_the_docs:
-  collections:
-    foundations:
-      name: Foundations
-      nav_fold: false
-    components:
-      name: Components
-      nav_fold: false
-    forms:
-      name: Forms
-      nav_fold: false
+# just_the_docs:
+#   collections:
+#     foundations:
+#       name: Foundations
+#       nav_fold: false
+#     components:
+#       name: Components
+#       nav_fold: false
+#     forms:
+#       name: Forms
+#       nav_fold: false
 
 callouts:
   highlight:
