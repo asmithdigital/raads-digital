@@ -5,11 +5,16 @@ layout: default
 <div class="home-promo">
   <div class="container">
     <div class="home-promo-wrapper">
+      {% if page.title_alternative %}
+      <h1>{{page.title_alternative}}</h1>
+      {% else %}
       <h1>{{page.title}}</h1>
+      {% endif %}
     </div>
     {% if page.intro %}<div>
       <p>{{page.intro}}</p>
-    </div>{% endif %}
+    </div>
+    {% endif %}
     {% if page.promo_link %}<div>
       <a href="{{site.baseurl}}{{page.promo_link}}">{{page.promo_link_title}} <i class="fa-solid fa-arrow-right"></i></a>
     </div>{% endif %}
