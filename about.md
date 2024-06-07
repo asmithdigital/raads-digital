@@ -1,7 +1,7 @@
 ---
 title: About
 layout: home
-nav_exclude: true
+parent: Foundations
 ---
 
 Testing 
