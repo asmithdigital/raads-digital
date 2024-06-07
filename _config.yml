@@ -5,6 +5,9 @@ url: ./raads-digital
 
 url: https://asmithdigital.github.io/raads-digital/
 
+back_to_top: true
+back_to_top_text: "Back to top"
+
 # Collections for website data
 collections:
   # foundations:
