@@ -9,4 +9,4 @@ has_children: true
 
 Words could go here 3
 
-{% include category-list.html items="foundations" %}
+{% include category-list.html parent="Foundations" %}
