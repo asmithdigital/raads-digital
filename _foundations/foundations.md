@@ -1,11 +1,9 @@
 ---
-title: Foundations
+title: Overview
 category_title: Foundations
 layout: components
 nav_order: 1
 hide_category_list: true
-has_children: true
-permalink: /foundations
 ---
 
 Words could go here 3
