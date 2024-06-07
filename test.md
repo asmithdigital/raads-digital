@@ -3,7 +3,7 @@ title: Test
 layout: home
 has_children: true
 ---
-
-{% for item in pages %}
+all pages
+{% for item in site.pages %}
   {{ item.title }}
 {% endfor %}
