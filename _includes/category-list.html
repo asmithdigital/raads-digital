@@ -1,24 +1,23 @@
 {% for item in site.pages %}
   {% if item.parent == include.items %}
-    {{item.title}}
-<div>
-  <div class="category-tiles">  
-    
-      {% if item.hide_category_list != true %}
-        <div>
-          <a href="{{site.baseurl}}{{ item.url }}" class="{{item.title}}">
-            {% if item.promo-image %}
-              <div class="category-tiles-thumb"><img src="{{site.url}}assets/images/{{item.promo-image}}"></div>
-            {% else %}
-             <div class="category-tiles-thumb"></div>
-            {% endif %}
-            <h3>{{ item.title | markdownify }}</h3>
-            <p>{{ item.intro | markdownify }}</p>
-          </a>
-        </div>  
-      {% endif %}  
-  
-  </div>
-</div>
+    <div>
+      <div class="category-tiles">  
+        
+          {% if item.hide_category_list != true %}
+            <div>
+              <a href="{{site.baseurl}}{{ item.url }}" class="{{item.title}}">
+                {% if item.promo-image %}
+                  <div class="category-tiles-thumb"><img src="{{site.url}}assets/images/{{item.promo-image}}"></div>
+                {% else %}
+                 <div class="category-tiles-thumb"></div>
+                {% endif %}
+                <h3>{{ item.title | markdownify }}</h3>
+                <p>{{ item.intro | markdownify }}</p>
+              </a>
+            </div>  
+          {% endif %}  
+      
+      </div>
+    </div>
   {% endif %}
 {% endfor %}
