@@ -9,4 +9,4 @@ hide_category_list: true
 has_children: true
 ---
 
-{% include category-list.html items="forms" %}
+{% include category-list.html parent="Forms" %}
