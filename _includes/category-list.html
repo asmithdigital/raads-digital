@@ -1,9 +1,9 @@
 <div>
-  <div class="category-tiles">
-   {% for item in site.[include.items] %}
-    {% if item.hide_category_list != true %}
-      {% include category-tile.html this_tile=item %}    
-   {% endif %}  
-  {% endfor %} 
+  <div class="category-tiles">  
+    {% for item in site.[include.items] %}
+      {% if item.hide_category_list != true %}
+        {% include category-tile.html this_tile=item %}    
+      {% endif %}  
+    {% endfor %} 
   </div>
 </div>
