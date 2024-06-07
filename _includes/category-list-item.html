@@ -1,11 +1,11 @@
 <div>
-  <a href="{{site.baseurl}}{{ include.item.url }}" class="{{include.item.title}}">
-    {% if item.promo-image %}
-      <div class="category-tiles-thumb"><img src="{{site.url}}assets/images/{{include.item.promo-image}}"></div>
+  <a href="{{site.baseurl}}{{ include.the_item.url }}" class="{{include.the_item.title}}">
+    {% if include.the_item.promo-image %}
+      <div class="category-tiles-thumb"><img src="{{site.url}}assets/images/{{include.the_item.promo-image}}"></div>
     {% else %}
      <div class="category-tiles-thumb"></div>
     {% endif %}
-    <h3>{{ include.item.title | markdownify }}</h3>
-    <p>{{ include.item.intro | markdownify }}</p>
+    <h3>{{ include.the_item.title | markdownify }}</h3>
+    <p>{{ include.the_item.intro | markdownify }}</p>
   </a>
 </div>  
