@@ -1,7 +1,8 @@
 {% for item in site.pages %}
   {% if item.parent == [include.items] %}
     These shoes are awesome!
-    {% include test-tiles.html items="Test" %}
+    {{item.title}}
+    Yo
   {% endif %}
 {% endfor %}
 <div>
