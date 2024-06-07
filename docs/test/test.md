@@ -5,4 +5,4 @@ has_children: true
 ---
 all pages
 
-{% include test-tiles.html items="Test" %}
+{% include test-tiles.html parent="Test" %}
