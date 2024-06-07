@@ -1,10 +1,8 @@
 ---
 title: Get started
+title_alternative: Apiary
 intro: Apiary provides resources, components, and design guidelines to help product teams work more efficiently, and to create simple, intuitive and beautiful experiences.
 layout: home
-search_exclude: true
-promo_link: /get-started.html
-promo_link_title: Get started
 ---
 
 {% include home-promo.html %}
