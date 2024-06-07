@@ -11,17 +11,14 @@ collections:
     output: true
     permalink: /:collection/:path
     folder: _foundations
-    sort_by: date
   components:
     output: true
     permalink: /:collection/:path
     folder: _components
-    sort_by: date
   forms:
     output: true
     permalink: /:collection/:path
     folder: _forms
-    sort_by: date
   staffers:
   schedules:
   announcements:
