@@ -1,5 +1,5 @@
 ---
-title: Foundations
+title: Overview
 category_title: Foundations
 layout: components
 nav_order: 1
