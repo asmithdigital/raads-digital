@@ -8,4 +8,4 @@ nav_order: 1
 
 {% include home-promo.html %}
 
-{% include category-list.html get-started %}
+{% include category-list.html get-started="get-started" %}
