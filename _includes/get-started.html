@@ -1,8 +1,6 @@
 <div>
   <div class="category-tiles">  
-    {% for theme in site.[include.items] %}
-      {% assign themes = theme | where: "title", "Themes" %}
-      {% include category-tile.html this_tile=themes %}    
-    {% endfor %}
+    {% assign themes = site.[include.items] | where: "title", "Themes" %}
+      {% include category-tile.html this_tile={{themes}} %}    
   </div>
 </div>
