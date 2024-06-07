@@ -1,7 +1,7 @@
 <div>
   <div class="category-tiles">  
     {% for item in site.pages %}
-      {% if item.get_started %}
+      {% if item.get_started && item.parent != true %}
       Get started.
       {% else %}
         {% if item.parent == include.parent %}
