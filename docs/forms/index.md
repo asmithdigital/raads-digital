@@ -7,6 +7,7 @@ nav_order: 4
 promo-image: date-1.png
 hide_category_list: true
 has_children: true
+has_toc: false
 ---
 
 {% include category-list.html parent="Forms" %}
