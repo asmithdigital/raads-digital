@@ -254,7 +254,7 @@ h2:first-of-type {
   .container,
   .promo-image {
     position: relative;
-		padding: 0 12px;	
+		// padding: 0 12px;	
     
     @media (min-width: 50rem) {
       padding: 34px 68px;
@@ -269,10 +269,10 @@ h2:first-of-type {
   }
   
   .main-content-wrap {
-	@media (mac-width: 50rem) {
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
+		@media (mac-width: 50rem) {
+			padding-left: 1.5rem;
+			padding-right: 1.5rem;
+		}
 	
     @media (min-width: 50rem) {
       padding: 0;
