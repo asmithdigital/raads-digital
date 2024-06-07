@@ -5,5 +5,7 @@ has_children: true
 ---
 all pages
 {% for item in site.pages %}
-  {{ item.title }}
+  {% if item.parent = "Test" %}
+    {{ item.title }}
+  {% endif %}
 {% endfor %}
