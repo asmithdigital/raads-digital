@@ -21,12 +21,14 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: capitalize;
 }
 
-h1 { font-size: 48px !important;}
-h2 { font-size: 36px !important;}
-h3 { font-size: 24px !important;}
-h4 { font-size: 18px !important;}
-h5 { font-size: 18px !important;}
-h6 { font-size: 16px !important;}
+ @media (min-width: 50rem) {
+	h1 { font-size: 48px !important;}
+	h2 { font-size: 36px !important;}
+	h3 { font-size: 24px !important;}
+	h4 { font-size: 18px !important;}
+	h5 { font-size: 18px !important;}
+	h6 { font-size: 16px !important;}
+}
 
 h1:first-of-type,
 h2:first-of-type {
@@ -57,7 +59,7 @@ h2:first-of-type {
 .page-title,
 .home-promo {
   @media (max-width: 49rem) {
-    border-bottom: 1px solid $RAAborder;
+    // border-bottom: 1px solid $RAAborder;
     padding-bottom: 1rem;
   }
   
@@ -247,6 +249,7 @@ h2:first-of-type {
   .container,
   .promo-image {
     position: relative;
+		padding: 0 12px;	
     
     @media (min-width: 50rem) {
       padding: 34px 68px;
