@@ -1,7 +1,7 @@
 ---
 title: About
 layout: home
-parent: Foundations
+parent: Test
 ---
 
 Testing 
