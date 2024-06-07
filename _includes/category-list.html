@@ -2,7 +2,17 @@
   <div class="category-tiles">  
     {% for item in site.[include.items] %}
       {% if item.hide_category_list != true %}
-        {% include category-tile.html this_tile=item %}    
+        <div>
+          <a href="{{site.baseurl}}{{ item.url }}" class="{{item.title}}">
+            {% if item.promo-image %}
+              <div class="category-tiles-thumb"><img src="{{site.url}}assets/images/{{item.promo-image}}"></div>
+            {% else %}
+             <div class="category-tiles-thumb"></div>
+            {% endif %}
+            <h3>{{ item.title | markdownify }}</h3>
+            <p>{{ item.intro | markdownify }}</p>
+          </a>
+        </div>  
       {% endif %}  
     {% endfor %} 
   </div>
