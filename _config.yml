@@ -7,10 +7,10 @@ url: https://asmithdigital.github.io/raads-digital/
 
 # Collections for website data
 collections:
-  foundations:
-    output: true
-    permalink: /:collection/:path
-    folder: _foundations
+  # foundations:
+  #   output: true
+  #   permalink: /:collection/:path
+  #   folder: _foundations
   components:
     output: true
     permalink: /:collection/:path
@@ -25,9 +25,9 @@ collections:
 
 just_the_docs:
   collections:
-    foundations:
-      name: Foundations
-      nav_fold: false
+    # foundations:
+    #   name: Foundations
+    #   nav_fold: false
     components:
       name: Components
       nav_fold: false
