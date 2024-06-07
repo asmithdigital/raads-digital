@@ -1,6 +1,6 @@
 <div>
   <div class="category-tiles">  
-    {% assign theme = site.foundation | where: "title", "Theme" %}
+    {% assign theme = include.items | where: "title", "Theme" %}
     {% include category-tile.html this_tile=theme %}    
   </div>
 </div>
