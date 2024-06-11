@@ -75,7 +75,7 @@ h2:first-of-type {
   }
   
   @media (min-width: 50rem) {
-    background: lighten($RAAlightgrey, 5);
+    background: $RAAlightgrey;
   }
 
   .title-wrapper,
