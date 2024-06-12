@@ -18,6 +18,11 @@ body {
   &:hover {
     text-decoration-color: rgba($link-color, 0.45);
   }
+
+	&::after {
+		font-family: "Font Awesome 6 Free" !important;
+    content: "\f05a" !important;
+	}
 }
 
 // p {
