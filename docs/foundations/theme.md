@@ -6,10 +6,12 @@ parent: Foundations
 get_started: true
 ---
 
-## Default
+## Insurance (default)
 
-The default theme is the base for all items in the Apiary design system. The default theme is used by insurance web applications such as QTB, renewals and claims.
+The default theme is the base for all items in the Apiary design system. It uses the default state of the grid system, components and forms, and is used by insurance web applications such as QTB, renewals and claims.
 
-## Portal
+## My Account
 
-The portal theme inherits from the default theme. The portal theme contains variations to the Apiary design system such as layout, components, and forms. These variations are referenced for each relevant item in the Apiary design system.
+The My Account theme inherits from the default theme. It contains variations to the defaults for the grid system, components, and forms, which are unique to the My Account application.
+
+Next: [Grid system](grid-system)
