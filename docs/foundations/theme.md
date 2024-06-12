@@ -13,4 +13,4 @@ get_started: true
 
 Each item in Apiary will reference its theme...
 
-Now that you know which theme you will use you can now begin to review the Apiary [Foundations](docs/foundations/), [Components](docs/components/), and [Forms](docs/forms/).
+Now that you know which theme you will use you can now begin to review the Apiary [Foundations]({{site.baseurl}}/docs/foundations/), [Components]({{site.baseurl}}/docs/components/), and [Forms]({{site.baseurl}}/docs/forms/).
