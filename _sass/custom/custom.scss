@@ -422,12 +422,12 @@ iframe {
   }
 
 	&.inline {
-		@media (min-width: 50rem) {
-			grid-template-columns: repeat(2, 1fr);
+		@media (min-width: 30rem) {
+			grid-template-columns: repeat(1, 1fr);	
 		}
 			
-		@media (min-width: 66.5em) and (max-width: 87em) {
-		 	grid-template-columns: repeat(1, 1fr);
+		@media (min-width: 50em) {
+		 	grid-template-columns: repeat(2, 1fr);
 		}
 			
 		@media (min-width: 87rem) {
