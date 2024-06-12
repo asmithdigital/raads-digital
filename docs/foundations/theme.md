@@ -1,4 +1,4 @@
- ste---
+---
 title: Themes
 intro: Themes determine specific styles for layouts, grids, and components.
 layout: components
