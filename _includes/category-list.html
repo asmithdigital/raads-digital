@@ -1,21 +1,19 @@
-<div>
-  <div class="category-tiles">  
-    {% if include.get_started  %}
-      {% for item in site.pages %}
-        {% if item.get_started %}
-          {% if item.hide_category_list != true %}
-            {% include category-list-item.html the_item=item getstarted="true" %}
-         {% endif %}  
-        {% endif %}
-      {% endfor %}
-    {% elsif include.parent %}
-      {% for item in site.pages %}
-        {% if item.parent == include.parent %}
-          {% if item.hide_category_list != true %}
-            {% include category-list-item.html the_item=item %}
-          {% endif %}  
-        {% endif %}
-      {% endfor %}
-    {% endif %} 
-  </div>
+<div class="category-tiles">  
+  {% if include.get_started  %}
+    {% for item in site.pages %}
+      {% if item.get_started %}
+        {% if item.hide_category_list != true %}
+          {% include category-list-item.html the_item=item getstarted="true" %}
+       {% endif %}  
+      {% endif %}
+    {% endfor %}
+  {% elsif include.parent %}
+    {% for item in site.pages %}
+      {% if item.parent == include.parent %}
+        {% if item.hide_category_list != true %}
+          {% include category-list-item.html the_item=item %}
+        {% endif %}  
+      {% endif %}
+    {% endfor %}
+  {% endif %} 
 </div>
