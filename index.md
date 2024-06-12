@@ -6,7 +6,7 @@ layout: home
 nav_order: 1
 ---
 
-## Start here:
+Where to start
 
 {% include category-list.html get_started="get_started" %}
 
