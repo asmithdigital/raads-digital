@@ -7,6 +7,6 @@
   <div class="category-tiles-content">
     <h3>{{ include.the_item.title | markdownify }}</h3>
     <p>{{ include.the_item.intro | markdownify }}</p>
-    {% if include.layout == "inline" %} Explore {{include.the_item.title}} {% endif %}
+    {% if include.layout == "inline" %}<a>Explore {{include.the_item.title}} <i class="fa-solid fa-arrow-right"></i></a> {% endif %}
   </div>
 </a>
