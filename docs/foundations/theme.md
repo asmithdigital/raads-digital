@@ -1,6 +1,6 @@
 ---
 title: Themes
-intro: Themes determine layouts and grids, and component styles specific for an application.
+intro: Themes determine specific styles for layouts, grids, and components.
 layout: components
 nav_order: 2
 parent: Foundations
@@ -13,5 +13,5 @@ get_started: true
 
 ## Design specifications
 
-Each item in the Apiary design system will reference the relevant theme.
+Each item in Apiary will reference its theme...
 
