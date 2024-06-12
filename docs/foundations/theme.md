@@ -7,11 +7,11 @@ parent: Foundations
 get_started: true
 ---
 
-## Insurance theme
+## Default
 
-The 'Insurance' theme is the default theme. It is used by insurance web applications such as QTB, renewals and claims.
+The Insurance web applications such as QTB, renewals and claims use the default theme. It is the base for all layouts and grids, components and forms.
 
-## My Account theme
+## Portal
 
-The 'My Account' theme inherits from the default theme. It contains variations to the defaults for the layouts and grids, components, and forms specific to the My Account application.
+The My Account application uses the 'Portal' theme. It inherits from the default theme and contains layouts, grids, components, and form variations.
 
