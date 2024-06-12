@@ -9,6 +9,17 @@ body {
   background: #ffffff;
 }
 
+.text-link {
+  color: $link-color;
+  text-decoration: underline;
+  text-decoration-color: $border-color;
+  text-underline-offset: 2px;
+
+  &:hover {
+    text-decoration-color: rgba($link-color, 0.45);
+  }
+}
+
 // p {
 //   margin-bottom: 24px !important;
 //   margin-top: 48px !important;
