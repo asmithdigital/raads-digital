@@ -425,9 +425,11 @@ iframe {
 		@media (min-width: 50rem) {
 			grid-template-columns: repeat(2, 1fr);
 		}
+			
 		@media (min-width: 66.5em) and (max-width: 87em) {
-     grid-template-columns: repeat(1, 1fr);
-   	}
+		 	grid-template-columns: repeat(1, 1fr);
+		}
+			
 		@media (min-width: 87rem) {
 		 grid-template-columns: repeat(2, 1fr);
 		}
@@ -460,7 +462,7 @@ iframe {
       box-shadow: var(--ds-shadow-overlay, 0px 8px 12px #091e423f, 0px 0px 1px #091e424f);
     }
 
-    h3 {margin-top: 0;}
+    h3 {margin-top: 0 !important;}
   }
 }
 
