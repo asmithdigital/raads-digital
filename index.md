@@ -8,6 +8,6 @@ nav_order: 1
 
 Where to start
 
-{% include category-list.html inline="true" %}
+{% include category-list.html layout="inline" %}
 
 {% include home-promo.html %}
