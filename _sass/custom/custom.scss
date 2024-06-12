@@ -446,6 +446,8 @@ iframe {
 			display: flex;
 			gap: 24px;
 		}
+
+		h3 {margin-top: 0 !important;}
 	}
 
   &-thumb {
@@ -470,7 +472,6 @@ iframe {
       box-shadow: var(--ds-shadow-overlay, 0px 8px 12px #091e423f, 0px 0px 1px #091e424f);
     }
 
-    h3 {margin-top: 0 !important;}
   }
 }
 
