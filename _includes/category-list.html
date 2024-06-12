@@ -1,9 +1,9 @@
 <div class="category-tiles">  
-  {% if include.get_started  %}
+  {% if include.inline  %}
     {% for item in site.pages %}
       {% if item.get_started %}
         {% if item.hide_category_list != true %}
-          {% include category-list-item.html the_item=item getstarted="true" %}
+          {% include category-list-item.html the_item=item layout="inline" %}
        {% endif %}  
       {% endif %}
     {% endfor %}
