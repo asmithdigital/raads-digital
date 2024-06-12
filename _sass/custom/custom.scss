@@ -421,6 +421,12 @@ iframe {
      grid-template-columns: repeat(3, 1fr);
   }
 
+	&.inline {
+		@media (min-width: 87rem) {
+			grid-template-columns: repeat(2, 1fr) !important;
+		}
+	}
+
   &-thumb {
     border-radius: 4px;
     background: #f4f5f7;
@@ -429,7 +435,7 @@ iframe {
     padding: 24px;
     overflow: hidden;
   }
-  
+
   a {
     display: block;
     height: 100%;
