@@ -2,9 +2,7 @@
   {% if include.layout == "inline" %}
     {% for item in site.pages %}
       {% if item.get_started %}
-        {% if item.hide_category_list != true %}
-          {% include category-list-item.html the_item=item layout="inline" %}
-       {% endif %}  
+        {% include category-list-item.html the_item=item layout="inline" %}
       {% endif %}
     {% endfor %}
   {% elsif include.parent %}
