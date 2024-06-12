@@ -4,6 +4,8 @@
   {% else %}
    <div class="category-tiles-thumb"></div>
   {% endif %}
-  <h3>{{ include.the_item.title | markdownify }}</h3>
-  <p>{{ include.the_item.intro | markdownify }}</p>
+  <div>
+    <h3>{{ include.the_item.title | markdownify }}</h3>
+    <p>{{ include.the_item.intro | markdownify }}</p>
+  </div>
 </a>
