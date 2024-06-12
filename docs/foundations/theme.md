@@ -1,4 +1,4 @@
----
+ ste---
 title: Themes
 intro: Themes determine specific styles for layouts, grids, and components.
 layout: components
@@ -13,4 +13,4 @@ get_started: true
 
 Each item in Apiary will reference its theme...
 
-Now that you know which theme you will use you can now begin to review the Apiary [Foundations]({{site.baseurl}}/docs/foundations/), [Components]({{site.baseurl}}/docs/components/), and [Forms]({{site.baseurl}}/docs/forms/).
+Next: review the Apiary [Foundations]({{site.baseurl}}/docs/foundations/), [Components]({{site.baseurl}}/docs/components/), and [Forms]({{site.baseurl}}/docs/forms/).
