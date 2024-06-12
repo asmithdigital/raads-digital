@@ -1,14 +1,9 @@
-{% if include.getstarted %}
-  <h2>Get started</h2>
-  <a href="{{site.baseurl}}{{ include.the_item.url }}" class="{{include.the_item.title}}">{{include.the_item.title}}</a>
+<a href="{{site.baseurl}}{{ include.the_item.url }}" class="{{include.the_item.title}} {{include.getstarted}}">
+  {% if include.the_item.promo-image %}
+    <div class="category-tiles-thumb"><img src="{{site.url}}assets/images/{{include.the_item.promo-image}}"></div>
   {% else %}
-  <a href="{{site.baseurl}}{{ include.the_item.url }}" class="{{include.the_item.title}}">
-    {% if include.the_item.promo-image %}
-      <div class="category-tiles-thumb"><img src="{{site.url}}assets/images/{{include.the_item.promo-image}}"></div>
-    {% else %}
-     <div class="category-tiles-thumb"></div>
-    {% endif %}
-    <h3>{{ include.the_item.title | markdownify }}</h3>
-    <p>{{ include.the_item.intro | markdownify }}</p>
-  </a>
-{% endif %}
+   <div class="category-tiles-thumb"></div>
+  {% endif %}
+  <h3>{{ include.the_item.title | markdownify }}</h3>
+  <p>{{ include.the_item.intro | markdownify }}</p>
+</a>
