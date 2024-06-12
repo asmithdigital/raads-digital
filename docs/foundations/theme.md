@@ -1,6 +1,6 @@
 ---
 title: Themes
-intro: Themes determine layouts, grid, and component styles for an application.
+intro: Themes determine layouts and grids, and component styles specific for an application.
 layout: components
 nav_order: 2
 parent: Foundations
