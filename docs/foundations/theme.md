@@ -7,7 +7,6 @@ promo-image: theme_thumb.png
 thumb_class: no-padd
 parent: Foundations
 get_started: true
-hide_category_list: true
 ---
 
 **The following themes are available within Apiary:**
