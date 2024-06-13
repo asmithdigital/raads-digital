@@ -6,6 +6,8 @@ layout: home
 nav_order: 1
 ---
 
+## Start here 
+
 {% include category-list.html layout="inline" %}
 
 {% include home-promo.html %}
