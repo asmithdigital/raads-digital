@@ -2,7 +2,7 @@
 layout: components
 title: Spacing
 intro: Horizontal and vertical spacing for all layouts, components and elements.
-nav_order: 1
+nav_order: 3
 parent: Foundations
 ---
 
