@@ -9,6 +9,4 @@ has_children: true
 has_toc: false
 ---
 
-{% include category-list.html layout="inline" %}
-
 {% include category-list.html parent="Foundations" %}
