@@ -3,7 +3,8 @@ title: Themes
 intro: Themes determine specific styles for layouts, grids, and components.
 layout: components
 nav_order: 2
-promo-image: Theme.png
+promo-image: theme.png
+thumb_class: no-padd
 parent: Foundations
 get_started: true
 ---
