@@ -1,6 +1,7 @@
 ---
 layout: components
 title: Editor guide
+intro: User guide for those who wish to edit this documentation site
 nav_exclude: true
 ---
 
