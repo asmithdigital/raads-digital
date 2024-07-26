@@ -28,9 +28,10 @@ That's it! You have just edited the page. Go to the page, give it a few minutes,
 
 You will notice at the top of the page when you are in edit mode, there is a weird table of things.
 
-`---
+```markdown
+---
 title: Buttons
 layout: components
 parent: Components
 ---
-`
+```
