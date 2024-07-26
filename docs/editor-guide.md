@@ -19,7 +19,7 @@ You will notice an `index.md` file in that same directory, I'll come back to tha
 
 First, you need to click the edit button pencil icons or 'Edit in place' from the dropdown. Don't click open with `github.dev` or `Github Desktop`. That's just confusing. Just edit it in place.
 
-![alt text](/assets/images/edit-icon.png)
+![alt text]({{site.url}}assets/images/edit-icon.png)
 
 Now, make some changes... add some markdown... go crazy...
 
@@ -61,5 +61,7 @@ Click Add file, then Upload file. Drag and drop or Add files, then commit the ch
 
 That's it. Now you can start adding images to your page using the Front matter, or on the page with Markdown. 
 
+When using images in your page Markdown, use the following URL. Note the variable `{{site.url}}`. This is defined in the site config. This will define the repository URL and it is important to use this variable because if/when we move the site to a different repository, the images won't all become broken.
 
+`![alt text]({{site.url}}assets/images/edit-icon.png)`
 
