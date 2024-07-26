@@ -15,6 +15,6 @@ First, you need to click the edit button 'Edit in place' or click the pencil ico
 
 Now, make some changes... add some markdown... go crazy...
 
-Then click commit changes. Thats the same as saying save, except its in git terminology. You can give your commit a title and a short description. You can think of this as adding a line to a changelog because thats exactly what it does. You can see a history of all commits in the commit history.
+Then click commit changes. That's the same as saying save, except it's in git terminology. You can give your commit a title and a short description, make sure the option 'Commit directly to the main branch' is selected, and then click the commit changes button. You can think of this as adding a line to a changelog because that's exactly what it does. You can see a history of all commits in the commit history.
 
-Now, go to the page, give it a few minutes, then refresh and it should update within 5-10 minutes.
+That's it! You have just edited the page. Go to the page, give it a few minutes, then refresh and it should update within 5-10 minutes.
