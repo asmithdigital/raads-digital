@@ -37,7 +37,7 @@ Click `Add file` then `Create new file`.
 
 ![alt text]({{site.url}}assets/images/create-file.png)
 
-Give your new page a name (e.g `something.md'). 
+Give your new page a name (e.g `something.md`). 
 
 ![alt text]({{site.url}}assets/images/name-page.png)
 
