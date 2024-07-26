@@ -25,6 +25,8 @@ Now, make some changes... add some markdown... go crazy...
 
 Then click the 'Commit changes' button, give your commit a title and a short description, make sure the option 'Commit directly to the main branch' is selected, and then click the 'Commit changes' button. 
 
+![alt text]({{site.url}}assets/images/commit-button.png)
+
 That's it! You have just edited the page. Go to the page, give it a few minutes, then refresh and it should update within 5-10 minutes.
 
 ### Now let's get more advanced
@@ -58,6 +60,8 @@ Here is all the front matter that I have built into the website so far.
 Create your image and then navigate to [assets/images](https://github.com/asmithdigital/raads-digital/tree/main/assets/images). This is where all images can be uploaded. The `promo-image` Front matter variable knows that images will be in this directory, which is why you don't need to add the image path to the Front matter value.
 
 Click Add file, then Upload file. Drag and drop or Add files, then commit the changes in the same way you did when editing the page. Make sure `Commit directly to the main branch.` is selected.
+
+![alt text]({{site.url}}assets/images/upload-file.png)
 
 That's it. Now you can start adding images to your page using the Front matter, or on the page with Markdown. 
 
