@@ -63,5 +63,9 @@ That's it. Now you can start adding images to your page using the Front matter, 
 
 When using images in your page Markdown, use the following URL. Note the variable `{{site.url}}`. This is defined in the site config. This will define the repository URL and it is important to use this variable because if/when we move the site to a different repository, the images won't all become broken.
 
-`![alt text]({{site.url}}assets/images/edit-icon.png)`
+Here is an example
+
+```markdown
+![alt text]({{site.url}}assets/images/edit-icon.png)
+```
 
