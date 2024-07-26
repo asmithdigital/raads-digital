@@ -65,11 +65,11 @@ Click Add file, then Upload file. Drag and drop or Add files, then commit the ch
 
 That's it. Now you can start adding images to your page using the Front matter, or on the page with Markdown. 
 
-When using images in your page Markdown, use the following URL. Note the variable ```{{site.url}}```. This is defined in the site config. This will define the repository URL and it is important to use this variable because if/when we move the site to a different repository, the images won't all become broken.
+When using images in your page Markdown, use the following URL. Note the variable `{% raw %}{{site.url}}{% endraw %}`. This is defined in the site config. This will define the repository URL and it is important to use this variable because if/when we move the site to a different repository, the images won't all become broken.
 
 Here is an example
 
 ```
-![alt text](\{\{site.url\}\}assets/images/edit-icon.png)
+{% raw %}![alt text]({{site.url}}assets/images/edit-icon.png){% endraw %}
 ```
 
