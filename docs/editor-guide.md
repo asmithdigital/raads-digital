@@ -29,6 +29,20 @@ Then click the 'Commit changes' button, give your commit a title and a short des
 
 That's it! You have just edited the page. Go to the page, give it a few minutes, then refresh and it should update within 5-10 minutes.
 
+### Creating a new page
+
+Navigate to the directory where you want the new page to appear in the menu. 
+
+Click `Add file` then `Create new file`. 
+
+![alt text]({{site.url}}assets/images/create-file.png)
+
+Give your new page a name (e.g `something.md'). 
+
+![alt text]({{site.url}}assets/images/name-page.png)
+
+Then commit the changes as you did when editing a page. Done!
+
 ### Now let's get more advanced
 
 You will notice at the top of the page when you are in edit mode, there is a weird table of things, like the one below. That's called 'Front Matter'. It's just a bunch of variables that we can include into the page which will define things such as layouts, page titles, and anything we want. All you do is add the three dashes above and below and then you add the variable on the left, and the value on the right after the colon.
