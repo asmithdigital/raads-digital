@@ -5,13 +5,15 @@ nav_exclude: true
 ---
 First, go to the [repository where the code for this docs site lives](https://github.com/asmithdigital/raads-digital). You will need to be logged into GitHub. Then navigate to the 'docs' directory.
 
-All the pages live in the docs directory, even this guide. You will notice that this guide page isn't in the menu, we will come back to that in a minute.
+All the pages live in the docs directory, even this guide. You will notice that this guide page isn't visible in the menu of the docs site, we will come back to that in a minute.
 
-The first thing you want to do is pick a page you want to edit... Say buttons https://github.com/asmithdigital/raads-digital/blob/main/docs/components/buttons.md
+The first thing you want to do is pick a page you want to edit... Say [buttons](https://github.com/asmithdigital/raads-digital/blob/main/docs/components/buttons.md)
 
-You will notice an index.md file in that same directory, I'll come back to that in a minute as well. For now, just think about the buttons.md page. .md stands for Markdown. It's an HTML preprocessor. Its a very basic way to write HTML. The build tools will then generate HTML from the markdown, but you don't need to think about that, it's behind-the-scenes magic.
+You will notice an `index.md` file in that same directory, I'll come back to that in a minute as well. 
 
-First, you need to click the edit button 'Edit in place' or click the pencil icon. Don't click open with github.dev or Github Desktop. That's just confusing. Just edit it in place.
+For now, just think about the buttons.md page. The `.md` extension stands for Markdown. Markdown is a very basic way to write HTML. When you hit save, the build tools for the site will convert Markdown to HTML using Magic. Here is a [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/).
+
+First, you need to click the edit button pencil icons or 'Edit in place' from the dropdown. Don't click open with `github.dev` or `Github Desktop`. That's just confusing. Just edit it in place.
 
 Now, make some changes... add some markdown... go crazy...
 
