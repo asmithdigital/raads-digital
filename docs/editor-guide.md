@@ -33,7 +33,7 @@ That's it! You have just edited the page. Go to the page, give it a few minutes,
 
 Navigate to the directory where you want the new page to appear in the menu. 
 
-Click `Add file` then `Create new file`. 
+Click 'Add file' then 'Create new file'. 
 
 ![alt text]({{site.url}}assets/images/create-file.png)
 
