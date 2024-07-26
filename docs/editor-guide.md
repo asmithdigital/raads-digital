@@ -15,7 +15,7 @@ The first thing you want to do is pick a page you want to edit... Say [buttons](
 
 You will notice an `index.md` file in that same directory, I'll come back to that in a minute as well. 
 
-For now, just think about the buttons.md page. The `.md` extension stands for Markdown. Markdown is a very basic way to write HTML. When you hit save (in Githuib we call it 'commit' instead of save), the build tools for the site will convert Markdown to HTML using Magic. Here is a [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/).
+For now, just think about the buttons.md page. The `.md` extension stands for Markdown. Markdown is a very basic way to write HTML. When you hit save (in Github we call it 'commit' instead of save. More on that later), the build tools for the site will convert Markdown to HTML using Magic. Here is a [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/).
 
 First, you need to click the edit button pencil icons or 'Edit in place' from the dropdown. Don't click open with `github.dev` or `Github Desktop`. That's just confusing. Just edit it in place.
 
