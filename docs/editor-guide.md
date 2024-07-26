@@ -46,7 +46,7 @@ Here is all the front matter that I have built into the website so far.
 | parent | This is also where the `index.md` comes in. Look at the `index.md` in the same directory as the page you are editing, and find its title. This is the title you must use (case sensitive) for your parent. This will ensure that your page shows up as a child within that section of the menu. Please don't edit the `index.md` |
 | nav_order | This will determine the order in which your page appears in the menu within the category. Check the other pages in the category to find out where they are in the nav order. |
 | figma | This takes a URL for your Figma file. When you add this variable a table will appear at the bottom of the page with the Figma file link |
-| promo-image | This is a thumbnail image that will show up on the category landing page. It takes the file name and extension only, with no path (e.g., `file-name.png`). More on images in a minute. |'
+| promo-image | This is a thumbnail image that will show up on the category landing page. It takes the file name and extension only, with no path (e.g., `file-name.png`). More on images in a minute. |
 | version | Maybe this is a version that you want to display. When you add this variable you can add the version number as the value (e.g., `1.2.3`) and the version number will appear next to the title. I am working on a more advanced feature where we can add multiple versions, but that's not ready yet. |
 | nav_exclude | This will hide the page from the menu. The value for this is `true` |
 
