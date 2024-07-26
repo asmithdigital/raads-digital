@@ -15,13 +15,13 @@ The first thing you want to do is pick a page you want to edit... Say [buttons](
 
 You will notice an `index.md` file in that same directory, I'll come back to that in a minute as well. 
 
-For now, just think about the buttons.md page. The `.md` extension stands for Markdown. Markdown is a very basic way to write HTML. When you hit save, the build tools for the site will convert Markdown to HTML using Magic. Here is a [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/).
+For now, just think about the buttons.md page. The `.md` extension stands for Markdown. Markdown is a very basic way to write HTML. When you hit save (in Githuib we call it 'commit' instead of save), the build tools for the site will convert Markdown to HTML using Magic. Here is a [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/).
 
 First, you need to click the edit button pencil icons or 'Edit in place' from the dropdown. Don't click open with `github.dev` or `Github Desktop`. That's just confusing. Just edit it in place.
 
 Now, make some changes... add some markdown... go crazy...
 
-Then click the Commit changes button, give your commit a title and a short description, make sure the option 'Commit directly to the main branch' is selected, and then click the Commit changes button. 
+Then click the 'Commit changes' button, give your commit a title and a short description, make sure the option 'Commit directly to the main branch' is selected, and then click the 'Commit changes' button. 
 
 That's it! You have just edited the page. Go to the page, give it a few minutes, then refresh and it should update within 5-10 minutes.
 
