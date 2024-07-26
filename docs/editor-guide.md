@@ -70,6 +70,6 @@ When using images in your page Markdown, use the following URL. Note the variabl
 Here is an example
 
 ```
-![alt text]({{site.url}}assets/images/edit-icon.png)
+![alt text](\{\{site.url\}\}assets/images/edit-icon.png)
 ```
 
