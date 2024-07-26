@@ -24,9 +24,9 @@ Then click the Commit changes button, give your commit a title and a short descr
 
 That's it! You have just edited the page. Go to the page, give it a few minutes, then refresh and it should update within 5-10 minutes.
 
-## Now lets get more advanced
+## Now let's get more advanced
 
-You will notice at the top of the page when you are in edit mode, there is a weird table of things.
+You will notice at the top of the page when you are in edit mode, there is a weird table of things, like the one below. That's called 'Front Matter'. It's just a bunch of variables that we can include into the page which will define things such as layouts, page titles, and anything we want. All you do is add the three dashes above and below and then you add the variable on the left, and the value on the right after the colon.
 
 ```markdown
 ---
@@ -35,3 +35,25 @@ layout: components
 parent: Components
 ---
 ```
+
+Here is all the front matter that I have built into the website so far.
+
+| Variable | Description |
+| ----------- | ----------- |
+| title | This is the page title and the `<h1>` element |
+| intro | This is the page description that will appear below the title, and alo on the summary tile seen on the category landing page (which is one of the purposes of the `index.md` file) |
+| layout | This determines the page layout. When creating docs pages, use the `components' layout. I'll describe other layouts in the more advanced section  |
+| parent | This is also where the `index.md` comes in. Look at the `index.md` in the same directory as the page you are editing, and find its title. This is the title you myst use (case sensitive) for your parent. This will ensure that your page shows up as a child within that section of the menu. Please don't edit the `index.md` |
+| nav_order | This will determine the order which your page appears in the menu within the category. Check the other pages in the category to find out where they site in the nav order. |
+| figma | This takes a URL for your Figma file. When you add this variable a table will appear at the bottom of the page with the figma file link |
+| promo-image | This is a thumbnail image that will show up on the category landing page. It takes the file name and extension only, with not path ( e.g, `file-name.png`). More on images in a minute. |'
+| version | Maybe this is a version that you want to display. When you add this variable you can add the version number as the value (e.g, `1.2.3`) and the version number will appear next to the title. I am working on a more advanced feature where we can add multiple versions, but that's not ready yet. |
+
+## Uploading images
+
+Create your image and then navigate to [assets/images](https://github.com/asmithdigital/raads-digital/tree/main/assets/images). This is where all images can be uploaded. The `promo-image` knows that images will be in this directory, which is why you don't need to add the image path to the Front matter value.
+
+Click Add file, then Upload file. Drag and drop or Add files, then commit the changes in the same way you did when editing the page. Make sure `Commit directly to the main branch.` is selected.
+
+
+
