@@ -6,9 +6,9 @@ nav_exclude: true
 
 ## Editing your first page
 
-Go to the [repository where the code for this docs site lives](https://github.com/asmithdigital/raads-digital). You will need to be logged into GitHub. Then navigate to the 'docs' directory.
+Go to the [repository where the code for this docs site lives](https://github.com/asmithdigital/raads-digital). You will need to be logged into GitHub. Then navigate to the ['docs' directory](https://github.com/asmithdigital/raads-digital/tree/main/docs).
 
-All the pages live in the docs directory, even this guide. You will notice that this guide page isn't visible in the menu of the docs site, we will come back to that in a minute.
+All the pages live in the [docs directory](https://github.com/asmithdigital/raads-digital/tree/main/docs), even this guide page. You will notice that this guide page isn't visible in the menu of the docs site, we will come back to that in a minute.
 
 The first thing you want to do is pick a page you want to edit... Say [buttons](https://github.com/asmithdigital/raads-digital/blob/main/docs/components/buttons.md)
 
@@ -48,6 +48,7 @@ Here is all the front matter that I have built into the website so far.
 | figma | This takes a URL for your Figma file. When you add this variable a table will appear at the bottom of the page with the figma file link |
 | promo-image | This is a thumbnail image that will show up on the category landing page. It takes the file name and extension only, with not path ( e.g, `file-name.png`). More on images in a minute. |'
 | version | Maybe this is a version that you want to display. When you add this variable you can add the version number as the value (e.g, `1.2.3`) and the version number will appear next to the title. I am working on a more advanced feature where we can add multiple versions, but that's not ready yet. |
+| nav_exclude | This will hide the page from the menu. The value for this is `true` |
 
 ## Uploading images
 
