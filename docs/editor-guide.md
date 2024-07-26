@@ -3,7 +3,7 @@ layout: components
 title: Editor guide
 nav_exclude: true
 ---
-Log in and then go here https://github.com/asmithdigital/raads-digital, then navigate to the 'docs' directory.
+First, go to the [repository where the code for this docs site lives](https://github.com/asmithdigital/raads-digital). You will need to be logged into GitHub. Then navigate to the 'docs' directory.
 
 All the pages live in the docs directory, even this guide. You will notice that this guide page isn't in the menu, we will come back to that in a minute.
 
