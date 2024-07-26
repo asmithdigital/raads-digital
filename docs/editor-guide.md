@@ -5,7 +5,7 @@ intro: User guide for those who wish to edit this documentation site
 nav_exclude: true
 ---
 
-## Editing your first page
+### Editing a page
 
 Go to the [repository where the code for this docs site lives](https://github.com/asmithdigital/raads-digital). You will need to be logged into GitHub. Then navigate to the ['docs' directory](https://github.com/asmithdigital/raads-digital/tree/main/docs).
 
@@ -25,7 +25,7 @@ Then click the 'Commit changes' button, give your commit a title and a short des
 
 That's it! You have just edited the page. Go to the page, give it a few minutes, then refresh and it should update within 5-10 minutes.
 
-## Now let's get more advanced
+### Now let's get more advanced
 
 You will notice at the top of the page when you are in edit mode, there is a weird table of things, like the one below. That's called 'Front Matter'. It's just a bunch of variables that we can include into the page which will define things such as layouts, page titles, and anything we want. All you do is add the three dashes above and below and then you add the variable on the left, and the value on the right after the colon.
 
@@ -51,7 +51,7 @@ Here is all the front matter that I have built into the website so far.
 | version | Maybe this is a version that you want to display. When you add this variable you can add the version number as the value (e.g., `1.2.3`) and the version number will appear next to the title. I am working on a more advanced feature where we can add multiple versions, but that's not ready yet. |
 | nav_exclude | This will hide the page from the menu. The value for this is `true` |
 
-## Uploading images
+### Uploading images
 
 Create your image and then navigate to [assets/images](https://github.com/asmithdigital/raads-digital/tree/main/assets/images). This is where all images can be uploaded. The `promo-image` Front matter variable knows that images will be in this directory, which is why you don't need to add the image path to the Front matter value.
 
