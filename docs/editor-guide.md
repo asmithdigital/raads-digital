@@ -57,7 +57,7 @@ Create your image and then navigate to [assets/images](https://github.com/asmith
 
 Click Add file, then Upload file. Drag and drop or Add files, then commit the changes in the same way you did when editing the page. Make sure `Commit directly to the main branch.` is selected.
 
-That's it.
+That's it. Now you can start adding images to your page using the Front matter, or on the page with Markdown. 
 
 
 
