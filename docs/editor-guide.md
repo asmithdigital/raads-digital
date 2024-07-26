@@ -15,15 +15,15 @@ The first thing you want to do is pick a page you want to edit... Say [buttons](
 
 You will notice an `index.md` file in that same directory, I'll come back to that in a minute as well. 
 
-  For now, just think about the buttons.md page. The `.md` extension stands for Markdown. Markdown is a very basic way to write HTML. When you hit 'commit' (another word for save), the build tools for the site will convert Markdown to HTML using Magic. Here is a [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/).
+For now, just think about the `buttons.md` page. The `.md` extension stands for `Markdown`. Markdown is a very basic way to write HTML. When you hit `commit` (another word for save), the build tools for the site will convert Markdown to HTML using Magic. Here is a [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/).
 
-First, you need to click the edit button pencil icons or 'Edit in place' from the dropdown. Don't click open with `github.dev` or `Github Desktop`. That's just confusing. Just edit it in place.
+First, you need to click the edit button pencil icons or `Edit in place` from the dropdown. Don't click open with `github.dev` or `Github Desktop`. That's just confusing. Just edit it in place.
 
 ![alt text]({{site.url}}assets/images/edit-icon.png)
 
 Now, make some changes... add some markdown... go crazy...
 
-Then click the 'Commit changes' button, give your commit a title and a short description, make sure the option 'Commit directly to the main branch' is selected, and then click the 'Commit changes' button. 
+Then click the `Commit changes` button, give your commit a title and a short description, make sure the option `Commit directly to the main branch` is selected, and then click the `Commit changes` button. 
 
 ![alt text]({{site.url}}assets/images/commit-button.png)
 
@@ -33,7 +33,7 @@ That's it! You have just edited the page. Go to the page, give it a few minutes,
 
 Navigate to the directory where you want the new page to appear in the menu. 
 
-Click 'Add file' then 'Create new file'. 
+Click `Add file` then `Create new file`. 
 
 ![alt text]({{site.url}}assets/images/create-file.png)
 
@@ -45,7 +45,7 @@ Then commit the changes as you did when editing a page. Done!
 
 ### Now let's get more advanced
 
-You will notice at the top of the page when you are in edit mode, there is a weird table of things, like the one below. That's called 'Front Matter'. It's just a bunch of variables that we can include into the page which will define things such as layouts, page titles, and anything we want. All you do is add the three dashes above and below and then you add the variable on the left, and the value on the right after the colon.
+You will notice at the top of the page when you are in edit mode, there is a weird table of things, like the one below. That's called `Front Matter`. It's just a bunch of variables that we can include into the page which will define things such as layouts, page titles, and anything we want. All you do is add the three dashes above and below and then you add the variable on the left, and the value on the right after the colon.
 
 ```markdown
 ---
