@@ -19,7 +19,7 @@ You will notice an `index.md` file in that same directory, I'll come back to tha
 
 First, you need to click the edit button pencil icons or 'Edit in place' from the dropdown. Don't click open with `github.dev` or `Github Desktop`. That's just confusing. Just edit it in place.
 
-![alt text](assets/images/edit-icon.png)
+![alt text](/assets/images/edit-icon.png)
 
 Now, make some changes... add some markdown... go crazy...
 
