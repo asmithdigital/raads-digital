@@ -53,9 +53,11 @@ Here is all the front matter that I have built into the website so far.
 
 ## Uploading images
 
-Create your image and then navigate to [assets/images](https://github.com/asmithdigital/raads-digital/tree/main/assets/images). This is where all images can be uploaded. The `promo-image` knows that images will be in this directory, which is why you don't need to add the image path to the Front matter value.
+Create your image and then navigate to [assets/images](https://github.com/asmithdigital/raads-digital/tree/main/assets/images). This is where all images can be uploaded. The `promo-image` Front matter variable knows that images will be in this directory, which is why you don't need to add the image path to the Front matter value.
 
 Click Add file, then Upload file. Drag and drop or Add files, then commit the changes in the same way you did when editing the page. Make sure `Commit directly to the main branch.` is selected.
+
+That's it.
 
 
 
